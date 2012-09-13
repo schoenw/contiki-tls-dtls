@@ -1,0 +1,426 @@
+apps/netconf-light/netconf-light.c:#include "sysman.h"
+apps/snmpd/usm.c:#include "sysman.h"
+apps/snmpd/mib-init-raven.c:#include "sysman.h"
+core/sysman/sysman.c:#include "sysman/sysman.h"
+core/sysman/sysman.c:#include "sysman-arch.h"
+examples/exercise4/udp-server (27.05).c:#include "sysman.h"
+examples/exercise4/udp-server (30.05).c:#include "sysman.h"
+examples/exercise4/tmp/udp-server(18.05).c:#include "sysman.h"
+Binary file examples/exercise4/bla.avr-raven matches
+examples/exercise4/tmp2.txt:avr-gcc -DCONTIKI=1 -DCONTIKI_TARGET_AVR_RAVEN=1 -DUIP_CONF_IPV6=1 -DRAVEN_LCD_INTERFACE=1 -DCOFFEE_FILES=3 -DCOFFEE_ADDRESS=0x14000 -Wall -mmcu=atmega1284p -gdwarf-2 -I. -I../../core -I../../cpu/avr  -I../../platform/avr-raven -DF_CPU=8000000UL -DAUTO_CRC_PADDING=2 -Os -DRF230BB  -I. -I../../platform/avr-raven/. -I../../platform/avr-raven/apps -I../../platform/avr-raven/net -I../../platform/avr-raven/loader -I../../cpu/avr/. -I../../cpu/avr/dev -I../../cpu/avr/radio/rf230bb -I../../core/dev -I../../core/lib -I../../core/net -I../../core/net/mac -I../../core/net/rime -I../../core/net/rpl -I../../core/sys -I../../core/sysman -I../../core/cfs -I../../core/ctk -I../../core/lib/ctk -I../../core/loader -I../../core/. -I../../apps/syslog -I../../platform/avr-raven/apps/raven-lcd-interface -MMD -c ../../platform/avr-raven/./contiki-raven-main.c -o obj_avr-raven/contiki-raven-main.o
+examples/exercise4/tmp2.txt:avr-gcc -DCONTIKI=1 -DCONTIKI_TARGET_AVR_RAVEN=1 -DUIP_CONF_IPV6=1 -DRAVEN_LCD_INTERFACE=1 -DCOFFEE_FILES=3 -DCOFFEE_ADDRESS=0x14000 -Wall -mmcu=atmega1284p -gdwarf-2 -I. -I../../core -I../../cpu/avr  -I../../platform/avr-raven -DF_CPU=8000000UL -DAUTO_CRC_PADDING=2 -Os -DRF230BB  -I. -I../../platform/avr-raven/. -I../../platform/avr-raven/apps -I../../platform/avr-raven/net -I../../platform/avr-raven/loader -I../../cpu/avr/. -I../../cpu/avr/dev -I../../cpu/avr/radio/rf230bb -I../../core/dev -I../../core/lib -I../../core/net -I../../core/net/mac -I../../core/net/rime -I../../core/net/rpl -I../../core/sys -I../../core/sysman -I../../core/cfs -I../../core/ctk -I../../core/lib/ctk -I../../core/loader -I../../core/. -I../../apps/syslog -I../../platform/avr-raven/apps/raven-lcd-interface -MMD -c ../../core/cfs/cfs-coffee.c -o obj_avr-raven/cfs-coffee.o
+examples/exercise4/tmp2.txt:avr-gcc -DCONTIKI=1 -DCONTIKI_TARGET_AVR_RAVEN=1 -DUIP_CONF_IPV6=1 -DRAVEN_LCD_INTERFACE=1 -DCOFFEE_FILES=3 -DCOFFEE_ADDRESS=0x14000 -Wall -mmcu=atmega1284p -gdwarf-2 -I. -I../../core -I../../cpu/avr  -I../../platform/avr-raven -DF_CPU=8000000UL -DAUTO_CRC_PADDING=2 -Os -DRF230BB  -I. -I../../platform/avr-raven/. -I../../platform/avr-raven/apps -I../../platform/avr-raven/net -I../../platform/avr-raven/loader -I../../cpu/avr/. -I../../cpu/avr/dev -I../../cpu/avr/radio/rf230bb -I../../core/dev -I../../core/lib -I../../core/net -I../../core/net/mac -I../../core/net/rime -I../../core/net/rpl -I../../core/sys -I../../core/sysman -I../../core/cfs -I../../core/ctk -I../../core/lib/ctk -I../../core/loader -I../../core/. -I../../apps/syslog -I../../platform/avr-raven/apps/raven-lcd-interface -MMD -c ../../platform/avr-raven/./cfs-coffee-arch.c -o obj_avr-raven/cfs-coffee-arch.o
+examples/exercise4/tmp2.txt:avr-ar rcf contiki-avr-raven.a obj_avr-raven/rimeaddr.o obj_avr-raven/rime.o obj_avr-raven/timesynch.o obj_avr-raven/rimestats.o obj_avr-raven/announcement.o obj_avr-raven/polite-announcement.o obj_avr-raven/broadcast-announcement.o obj_avr-raven/broadcast.o obj_avr-raven/stbroadcast.o obj_avr-raven/unicast.o obj_avr-raven/stunicast.o obj_avr-raven/runicast.o obj_avr-raven/abc.o obj_avr-raven/rucb.o obj_avr-raven/polite.o obj_avr-raven/ipolite.o obj_avr-raven/netflood.o obj_avr-raven/multihop.o obj_avr-raven/rmh.o obj_avr-raven/trickle.o obj_avr-raven/mesh.o obj_avr-raven/route.o obj_avr-raven/route-discovery.o obj_avr-raven/collect.o obj_avr-raven/collect-neighbor.o obj_avr-raven/neighbor-discovery.o obj_avr-raven/collect-link-estimate.o obj_avr-raven/rudolph0.o obj_avr-raven/rudolph1.o obj_avr-raven/rudolph2.o obj_avr-raven/chameleon.o obj_avr-raven/channel.o obj_avr-raven/chameleon-raw.o obj_avr-raven/chameleon-bitopt.o obj_avr-raven/cxmac.o obj_avr-raven/xmac.o obj_avr-raven/nullmac.o obj_avr-raven/lpp.o obj_avr-raven/frame802154.o obj_avr-raven/sicslowmac.o obj_avr-raven/nullrdc.o obj_avr-raven/nullrdc-noframer.o obj_avr-raven/mac.o obj_avr-raven/framer-nullmac.o obj_avr-raven/framer-802154.o obj_avr-raven/csma.o obj_avr-raven/contikimac.o obj_avr-raven/phase.o obj_avr-raven/rpl.o obj_avr-raven/rpl-dag.o obj_avr-raven/rpl-icmp6.o obj_avr-raven/rpl-timers.o obj_avr-raven/rpl-of-etx.o obj_avr-raven/process.o obj_avr-raven/procinit.o obj_avr-raven/autostart.o obj_avr-raven/elfloader.o obj_avr-raven/profile.o obj_avr-raven/timetable.o obj_avr-raven/timetable-aggregate.o obj_avr-raven/compower.o obj_avr-raven/serial-line.o obj_avr-raven/memb.o obj_avr-raven/mmem.o obj_avr-raven/timer.o obj_avr-raven/list.o obj_avr-raven/etimer.o obj_avr-raven/ctimer.o obj_avr-raven/energest.o obj_avr-raven/rtimer.o obj_avr-raven/stimer.o obj_avr-raven/print-stats.o obj_avr-raven/ifft.o obj_avr-raven/crc16.o obj_avr-raven/random.o obj_avr-raven/checkpoint.o obj_avr-raven/ringbuf.o obj_avr-raven/netstack.o obj_avr-raven/uip-debug.o obj_avr-raven/packetbuf.o obj_avr-raven/queuebuf.o obj_avr-raven/packetqueue.o obj_avr-raven/uip6.o obj_avr-raven/tcpip.o obj_avr-raven/psock.o obj_avr-raven/uip-udp-packet.o obj_avr-raven/uip-split.o obj_avr-raven/resolv.o obj_avr-raven/tcpdump.o obj_avr-raven/uiplib.o obj_avr-raven/uip-icmp6.o obj_avr-raven/uip-nd6.o obj_avr-raven/uip-packetqueue.o obj_avr-raven/sicslowpan.o obj_avr-raven/neighbor-attr.o obj_avr-raven/neighbor-info.o obj_avr-raven/uip-ds6.o obj_avr-raven/mt.o obj_avr-raven/nullradio.o obj_avr-raven/sysman.o obj_avr-raven/sysman-arch.o obj_avr-raven/simplexml.o obj_avr-raven/raven-lcd.o obj_avr-raven/contiki-raven-main.o obj_avr-raven/contiki-raven-default-init-net.o obj_avr-raven/cfs-coffee.o obj_avr-raven/cfs-coffee-arch.o obj_avr-raven/clock.o obj_avr-raven/mtarch.o obj_avr-raven/eeprom.o obj_avr-raven/flash.o obj_avr-raven/rs232.o obj_avr-raven/leds-arch.o obj_avr-raven/watchdog.o obj_avr-raven/rtimer-arch.o obj_avr-raven/bootloader.o obj_avr-raven/settings.o obj_avr-raven/elfloader-avr.o obj_avr-raven/symtab-avr.o obj_avr-raven/leds.o obj_avr-raven/rf230bb.o obj_avr-raven/halbb.o
+examples/exercise4/tmp2.txt:avr-gcc -DCONTIKI=1 -DCONTIKI_TARGET_AVR_RAVEN=1 -DUIP_CONF_IPV6=1 -DRAVEN_LCD_INTERFACE=1 -DCOFFEE_FILES=3 -DCOFFEE_ADDRESS=0x14000 -Wall -mmcu=atmega1284p -gdwarf-2 -I. -I../../core -I../../cpu/avr  -I../../platform/avr-raven -DF_CPU=8000000UL -DAUTO_CRC_PADDING=2 -Os -DRF230BB  -I. -I../../platform/avr-raven/. -I../../platform/avr-raven/apps -I../../platform/avr-raven/net -I../../platform/avr-raven/loader -I../../cpu/avr/. -I../../cpu/avr/dev -I../../cpu/avr/radio/rf230bb -I../../core/dev -I../../core/lib -I../../core/net -I../../core/net/mac -I../../core/net/rime -I../../core/net/rpl -I../../core/sys -I../../core/sysman -I../../core/cfs -I../../core/ctk -I../../core/lib/ctk -I../../core/loader -I../../core/. -I../../apps/syslog -I../../platform/avr-raven/apps/raven-lcd-interface -DAUTOSTART_ENABLE -c udp-server.c -o udp-server.co
+Binary file examples/exercise4/udp-server.avr-raven matches
+Binary file examples/exercise4/obj_avr-raven/raven-lcd.o matches
+examples/exercise4/obj_avr-raven/raven-lcd.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/exercise4/obj_avr-raven/raven-lcd.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+Binary file examples/exercise4/obj_avr-raven/sysman-arch.o matches
+examples/exercise4/obj_avr-raven/sysman.d:obj_avr-raven/sysman.o: ../../core/sysman/sysman.c \
+examples/exercise4/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h \
+examples/exercise4/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/exercise4/obj_avr-raven/sysman.d:../../core/sysman/sysman.c :
+examples/exercise4/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h :
+examples/exercise4/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+examples/exercise4/obj_avr-raven/sysman-arch.d:obj_avr-raven/sysman-arch.o: ../../platform/avr-raven/./sysman-arch.c \
+examples/exercise4/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h \
+examples/exercise4/obj_avr-raven/sysman-arch.d:../../platform/avr-raven/./sysman-arch.c :
+examples/exercise4/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h :
+Binary file examples/exercise4/obj_avr-raven/sysman.o matches
+Binary file examples/exercise4/contiki-avr-raven.a matches
+examples/exercise4/udp-server.c:#include "sysman.h"
+examples/exercise4/contiki-avr-raven.map:contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map:contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (avr_get_lcdmessage)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman-arch.o) (raven_get_temperature)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__divmodhi4)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__addsf3)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__mulsf3)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__floatsisf)
+examples/exercise4/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (malloc)
+examples/exercise4/contiki-avr-raven.map: .text          0x0000719a      0x9d6 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .text          0x00007b70      0x120 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map:                0x00007c4c                sysman_set_temp
+examples/exercise4/contiki-avr-raven.map: .data          0x008004c8       0x62 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .data          0x0080052a       0x3a contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .bss           0x0080153d       0x68 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .bss           0x008015a5        0x0 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: COMMON         0x008033ad        0x0 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map:                0x00000140       0x20 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map:                0x00000160       0x20 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map:                0x00000d4c      0x202 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map:                0x00000f4e      0x1ce contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_info    0x00006c1e      0x798 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .debug_info    0x000073b6      0x595 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_abbrev  0x00001729      0x1ee contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .debug_abbrev  0x00001917      0x18e contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_line    0x00004c99      0x7bf contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .debug_line    0x00005458      0x2f6 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_frame   0x000007c0      0x1c0 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .debug_frame   0x00000980      0x130 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_str     0x00001843      0x1c2 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .debug_str     0x00001a05      0x23d contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_loc     0x000032ba      0x570 contiki-avr-raven.a(sysman.o)
+examples/exercise4/contiki-avr-raven.map: .debug_loc     0x0000382a       0x98 contiki-avr-raven.a(sysman-arch.o)
+examples/exercise4/contiki-avr-raven.map: .debug_ranges  0x000000b8       0x40 contiki-avr-raven.a(sysman.o)
+Binary file examples/exercise4/test2.hex matches
+Binary file examples/exercise4/test.hex matches
+examples/test-sysman/test-sysman.c:#include "sysman.h"
+Binary file examples/test-sysman/obj_avr-raven/rpl-of-etx.o matches
+Binary file examples/test-sysman/obj_avr-raven/compower.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-split.o matches
+Binary file examples/test-sysman/obj_avr-raven/rudolph1.o matches
+Binary file examples/test-sysman/obj_avr-raven/sicslowmac.o matches
+Binary file examples/test-sysman/obj_avr-raven/neighbor-discovery.o matches
+Binary file examples/test-sysman/obj_avr-raven/settings.o matches
+Binary file examples/test-sysman/obj_avr-raven/unicast.o matches
+Binary file examples/test-sysman/obj_avr-raven/rmh.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-packetqueue.o matches
+Binary file examples/test-sysman/obj_avr-raven/rpl-icmp6.o matches
+Binary file examples/test-sysman/obj_avr-raven/watchdog.o matches
+Binary file examples/test-sysman/obj_avr-raven/memb.o matches
+Binary file examples/test-sysman/obj_avr-raven/flash.o matches
+Binary file examples/test-sysman/obj_avr-raven/raven-lcd.o matches
+Binary file examples/test-sysman/obj_avr-raven/chameleon.o matches
+Binary file examples/test-sysman/obj_avr-raven/nullmac.o matches
+Binary file examples/test-sysman/obj_avr-raven/rime.o matches
+Binary file examples/test-sysman/obj_avr-raven/nullradio.o matches
+Binary file examples/test-sysman/obj_avr-raven/queuebuf.o matches
+Binary file examples/test-sysman/obj_avr-raven/uiplib.o matches
+Binary file examples/test-sysman/obj_avr-raven/rpl-dag.o matches
+Binary file examples/test-sysman/obj_avr-raven/rudolph2.o matches
+Binary file examples/test-sysman/obj_avr-raven/polite-announcement.o matches
+Binary file examples/test-sysman/obj_avr-raven/cfs-coffee-arch.o matches
+Binary file examples/test-sysman/obj_avr-raven/etimer.o matches
+Binary file examples/test-sysman/obj_avr-raven/eeprom.o matches
+Binary file examples/test-sysman/obj_avr-raven/mesh.o matches
+Binary file examples/test-sysman/obj_avr-raven/rs232.o matches
+Binary file examples/test-sysman/obj_avr-raven/stimer.o matches
+Binary file examples/test-sysman/obj_avr-raven/symtab-avr.o matches
+Binary file examples/test-sysman/obj_avr-raven/tcpdump.o matches
+Binary file examples/test-sysman/obj_avr-raven/neighbor-attr.o matches
+examples/test-sysman/obj_avr-raven/raven-lcd.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/test-sysman/obj_avr-raven/raven-lcd.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+Binary file examples/test-sysman/obj_avr-raven/mmem.o matches
+Binary file examples/test-sysman/obj_avr-raven/stunicast.o matches
+Binary file examples/test-sysman/obj_avr-raven/netconf-light.o matches
+Binary file examples/test-sysman/obj_avr-raven/collect-link-estimate.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-debug.o matches
+Binary file examples/test-sysman/obj_avr-raven/leds-arch.o matches
+Binary file examples/test-sysman/obj_avr-raven/rudolph0.o matches
+Binary file examples/test-sysman/obj_avr-raven/bootloader.o matches
+Binary file examples/test-sysman/obj_avr-raven/sicslowpan.o matches
+Binary file examples/test-sysman/obj_avr-raven/psock.o matches
+Binary file examples/test-sysman/obj_avr-raven/autostart.o matches
+Binary file examples/test-sysman/obj_avr-raven/contiki-raven-main.o matches
+Binary file examples/test-sysman/obj_avr-raven/resolv.o matches
+Binary file examples/test-sysman/obj_avr-raven/channel.o matches
+Binary file examples/test-sysman/obj_avr-raven/stbroadcast.o matches
+examples/test-sysman/obj_avr-raven/netconf-light.d:  ../../core/sysman/sysman.h
+examples/test-sysman/obj_avr-raven/netconf-light.d:  ../../core/sysman/sysman.h :
+Binary file examples/test-sysman/obj_avr-raven/lpp.o matches
+Binary file examples/test-sysman/obj_avr-raven/profile.o matches
+Binary file examples/test-sysman/obj_avr-raven/csma.o matches
+Binary file examples/test-sysman/obj_avr-raven/sysman-arch.o matches
+examples/test-sysman/obj_avr-raven/sysman.d:obj_avr-raven/sysman.o: ../../core/sysman/sysman.c \
+examples/test-sysman/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h \
+examples/test-sysman/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/test-sysman/obj_avr-raven/sysman.d:../../core/sysman/sysman.c :
+examples/test-sysman/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h :
+examples/test-sysman/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+Binary file examples/test-sysman/obj_avr-raven/ctimer.o matches
+Binary file examples/test-sysman/obj_avr-raven/contikimac.o matches
+Binary file examples/test-sysman/obj_avr-raven/framer-802154.o matches
+Binary file examples/test-sysman/obj_avr-raven/frame802154.o matches
+Binary file examples/test-sysman/obj_avr-raven/tcpip.o matches
+Binary file examples/test-sysman/obj_avr-raven/chameleon-bitopt.o matches
+Binary file examples/test-sysman/obj_avr-raven/phase.o matches
+Binary file examples/test-sysman/obj_avr-raven/elfloader.o matches
+Binary file examples/test-sysman/obj_avr-raven/trickle.o matches
+Binary file examples/test-sysman/obj_avr-raven/elfloader-avr.o matches
+Binary file examples/test-sysman/obj_avr-raven/nullrdc.o matches
+Binary file examples/test-sysman/obj_avr-raven/energest.o matches
+Binary file examples/test-sysman/obj_avr-raven/timetable.o matches
+examples/test-sysman/obj_avr-raven/sysman-arch.d:obj_avr-raven/sysman-arch.o: ../../platform/avr-raven/./sysman-arch.c \
+examples/test-sysman/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h \
+examples/test-sysman/obj_avr-raven/sysman-arch.d:../../platform/avr-raven/./sysman-arch.c :
+examples/test-sysman/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h :
+Binary file examples/test-sysman/obj_avr-raven/list.o matches
+Binary file examples/test-sysman/obj_avr-raven/crc16.o matches
+Binary file examples/test-sysman/obj_avr-raven/contiki-raven-default-init-net.o matches
+Binary file examples/test-sysman/obj_avr-raven/framer-nullmac.o matches
+Binary file examples/test-sysman/obj_avr-raven/packetqueue.o matches
+Binary file examples/test-sysman/obj_avr-raven/collect.o matches
+Binary file examples/test-sysman/obj_avr-raven/broadcast.o matches
+Binary file examples/test-sysman/obj_avr-raven/rpl-timers.o matches
+Binary file examples/test-sysman/obj_avr-raven/xmac.o matches
+Binary file examples/test-sysman/obj_avr-raven/rucb.o matches
+Binary file examples/test-sysman/obj_avr-raven/netstack.o matches
+Binary file examples/test-sysman/obj_avr-raven/rf230bb.o matches
+Binary file examples/test-sysman/obj_avr-raven/mt.o matches
+Binary file examples/test-sysman/obj_avr-raven/mtarch.o matches
+Binary file examples/test-sysman/obj_avr-raven/sysman.o matches
+Binary file examples/test-sysman/obj_avr-raven/ipolite.o matches
+Binary file examples/test-sysman/obj_avr-raven/mac.o matches
+Binary file examples/test-sysman/obj_avr-raven/leds.o matches
+Binary file examples/test-sysman/obj_avr-raven/process.o matches
+Binary file examples/test-sysman/obj_avr-raven/timer.o matches
+Binary file examples/test-sysman/obj_avr-raven/runicast.o matches
+Binary file examples/test-sysman/obj_avr-raven/route.o matches
+Binary file examples/test-sysman/obj_avr-raven/procinit.o matches
+Binary file examples/test-sysman/obj_avr-raven/chameleon-raw.o matches
+Binary file examples/test-sysman/obj_avr-raven/collect-neighbor.o matches
+Binary file examples/test-sysman/obj_avr-raven/abc.o matches
+Binary file examples/test-sysman/obj_avr-raven/random.o matches
+Binary file examples/test-sysman/obj_avr-raven/rtimer-arch.o matches
+Binary file examples/test-sysman/obj_avr-raven/polite.o matches
+Binary file examples/test-sysman/obj_avr-raven/route-discovery.o matches
+Binary file examples/test-sysman/obj_avr-raven/cfs-coffee.o matches
+Binary file examples/test-sysman/obj_avr-raven/multihop.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-icmp6.o matches
+Binary file examples/test-sysman/obj_avr-raven/timetable-aggregate.o matches
+Binary file examples/test-sysman/obj_avr-raven/netflood.o matches
+Binary file examples/test-sysman/obj_avr-raven/rimestats.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip6.o matches
+Binary file examples/test-sysman/obj_avr-raven/halbb.o matches
+Binary file examples/test-sysman/obj_avr-raven/packetbuf.o matches
+Binary file examples/test-sysman/obj_avr-raven/cxmac.o matches
+Binary file examples/test-sysman/obj_avr-raven/serial-line.o matches
+Binary file examples/test-sysman/obj_avr-raven/ifft.o matches
+Binary file examples/test-sysman/obj_avr-raven/rimeaddr.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-udp-packet.o matches
+Binary file examples/test-sysman/obj_avr-raven/broadcast-announcement.o matches
+Binary file examples/test-sysman/obj_avr-raven/timesynch.o matches
+Binary file examples/test-sysman/obj_avr-raven/announcement.o matches
+Binary file examples/test-sysman/obj_avr-raven/nullrdc-noframer.o matches
+Binary file examples/test-sysman/obj_avr-raven/rpl.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-ds6.o matches
+Binary file examples/test-sysman/obj_avr-raven/checkpoint.o matches
+Binary file examples/test-sysman/obj_avr-raven/uip-nd6.o matches
+Binary file examples/test-sysman/obj_avr-raven/neighbor-info.o matches
+Binary file examples/test-sysman/obj_avr-raven/print-stats.o matches
+Binary file examples/test-sysman/obj_avr-raven/ringbuf.o matches
+Binary file examples/test-sysman/obj_avr-raven/simplexml2.o matches
+Binary file examples/test-sysman/obj_avr-raven/rtimer.o matches
+Binary file examples/test-sysman/obj_avr-raven/clock.o matches
+Binary file examples/test-sysman/contiki-avr-raven.a matches
+examples/test-sysman/contiki-avr-raven.map:contiki-avr-raven.a(uip6.o)   test-sysman.co (uip_send)
+examples/test-sysman/contiki-avr-raven.map:                              test-sysman.co (netconflight_process)
+examples/test-sysman/contiki-avr-raven.map:contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map:contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (avr_get_lcdmessage)
+examples/test-sysman/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman-arch.o) (raven_get_temperature)
+examples/test-sysman/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__divmodhi4)
+examples/test-sysman/contiki-avr-raven.map:                              test-sysman.co (__do_clear_bss)
+examples/test-sysman/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__addsf3)
+examples/test-sysman/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__mulsf3)
+examples/test-sysman/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__floatsisf)
+examples/test-sysman/contiki-avr-raven.map:LOAD test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .text          0x00000392       0x54 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .text          0x0000df1c      0x9d6 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .text          0x0000e8f2      0x120 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map:                0x0000e9ce                sysman_set_temp
+examples/test-sysman/contiki-avr-raven.map: .data          0x00800100       0x1f test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .data          0x00800867       0x62 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .data          0x008008c9       0x3a contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .bss           0x00800a3c        0x0 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .bss           0x008024b6       0x68 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .bss           0x0080251e        0x0 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map:                0x00000000       0x20 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map:                0x00000450       0x20 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map:                0x00000470       0x20 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map:                0x00000000       0x43 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map:                0x00002277      0x202 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map:                0x00002479      0x1ce contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_info    0x00000000      0x2d6 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .debug_info    0x0000f9c4      0x798 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_info    0x0001015c      0x595 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_abbrev  0x00000000      0x1b2 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .debug_abbrev  0x00004466      0x1ee contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_abbrev  0x00004654      0x18e contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_line    0x00000000      0x17c test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .debug_line    0x0000b4b9      0x7bf contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_line    0x0000bc78      0x2f6 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_frame   0x00000000       0x20 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .debug_frame   0x00001930      0x1c0 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_frame   0x00001af0      0x130 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_str     0x00000000      0x159 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .debug_str     0x00003f44      0x1c2 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_str     0x00004106      0x193 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_loc     0x00000000       0x89 test-sysman.co
+examples/test-sysman/contiki-avr-raven.map: .debug_loc     0x00008d1d      0x570 contiki-avr-raven.a(sysman.o)
+examples/test-sysman/contiki-avr-raven.map: .debug_loc     0x0000928d       0x98 contiki-avr-raven.a(sysman-arch.o)
+examples/test-sysman/contiki-avr-raven.map:OUTPUT(test-sysman.avr-raven elf32-avr)
+examples/test-sysman/contiki-avr-raven.map: .debug_ranges  0x00000360       0x40 contiki-avr-raven.a(sysman.o)
+Binary file examples/test-sysman/test-sysman.avr-raven matches
+Binary file examples/test-sysman/test.hex matches
+Binary file examples/snmpd-raven/webserver6-Huginn-avr-raven.elf matches
+examples/snmpd-raven/obj_avr-raven/simplexml.d:obj_avr-raven/simplexml.o: ../../core/sysman/simplexml.c \
+examples/snmpd-raven/obj_avr-raven/simplexml.d:  ../../core/sysman/simplexml.h ../../core/sysman/../../core/lib/list.h
+examples/snmpd-raven/obj_avr-raven/simplexml.d:../../core/sysman/simplexml.c :
+examples/snmpd-raven/obj_avr-raven/simplexml.d:  ../../core/sysman/simplexml.h ../../core/sysman/../../core/lib/list.h :
+Binary file examples/snmpd-raven/obj_avr-raven/mib-init-raven.o matches
+Binary file examples/snmpd-raven/obj_avr-raven/simplexml.o matches
+Binary file examples/snmpd-raven/obj_avr-raven/raven-lcd.o matches
+examples/snmpd-raven/obj_avr-raven/mib-init-raven.d:  ../../core/net/mac/framer.h ../../core/sysman/sysman.h \
+examples/snmpd-raven/obj_avr-raven/mib-init-raven.d:  ../../core/net/mac/framer.h ../../core/sysman/sysman.h :
+examples/snmpd-raven/obj_avr-raven/raven-lcd.d:  ../../core/lib/petsciiconv.h ../../platform/avr-raven/sysman-arch.h \
+examples/snmpd-raven/obj_avr-raven/raven-lcd.d:  ../../core/lib/petsciiconv.h ../../platform/avr-raven/sysman-arch.h :
+examples/snmpd-raven/obj_avr-raven/usm.d:  ../../core/sysman/sysman.h
+examples/snmpd-raven/obj_avr-raven/usm.d:  ../../core/sysman/sysman.h :
+Binary file examples/snmpd-raven/obj_avr-raven/sysman-arch.o matches
+examples/snmpd-raven/obj_avr-raven/sysman.d:obj_avr-raven/sysman.o: ../../core/sysman/sysman.c \
+examples/snmpd-raven/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h \
+examples/snmpd-raven/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/snmpd-raven/obj_avr-raven/sysman.d:  ../../core/cfs/cfs.h ../../core/sysman/simplexml.h \
+examples/snmpd-raven/obj_avr-raven/sysman.d:../../core/sysman/sysman.c :
+examples/snmpd-raven/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h :
+examples/snmpd-raven/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+examples/snmpd-raven/obj_avr-raven/sysman.d:  ../../core/cfs/cfs.h ../../core/sysman/simplexml.h :
+Binary file examples/snmpd-raven/obj_avr-raven/usm.o matches
+examples/snmpd-raven/obj_avr-raven/sysman-arch.d:obj_avr-raven/sysman-arch.o: ../../platform/avr-raven/./sysman-arch.c \
+examples/snmpd-raven/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h \
+examples/snmpd-raven/obj_avr-raven/sysman-arch.d:../../platform/avr-raven/./sysman-arch.c :
+examples/snmpd-raven/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h :
+Binary file examples/snmpd-raven/obj_avr-raven/sysman.o matches
+Binary file examples/snmpd-raven/contiki-avr-raven.a matches
+Binary file examples/snmpd-raven/webserver6.elf matches
+examples/snmpd-raven/contiki-avr-raven.map:contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map:contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (avr_get_lcdmessage)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (strdup)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (cfs_close)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__addsf3)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__mulsf3)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__floatsisf)
+examples/snmpd-raven/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (strcmp)
+examples/snmpd-raven/contiki-avr-raven.map: .text          0x00014ede      0x944 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .text          0x00015822      0x10c contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map:                0x000158ea                sysman_set_temp
+examples/snmpd-raven/contiki-avr-raven.map: .data          0x0080041b       0x5d contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .data          0x00800478       0x3a contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .bss           0x00802335       0x76 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .bss           0x008023ab        0x0 contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map:                0x000005e0       0x20 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map:                0x00000600       0x20 contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map:                0x00002baa      0x1b2 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map:                0x00002d5c      0x190 contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_info    0x00015dd0      0x705 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_info    0x000164d5      0x54d contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_abbrev  0x00005d7e      0x1b8 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_abbrev  0x00005f36      0x18e contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_line    0x0000c341      0x72a contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_line    0x0000ca6b      0x2d6 contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_frame   0x00001d50      0x180 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_frame   0x00001ed0      0x110 contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_str     0x00004d14      0x18e contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_str     0x00004ea2      0x15d contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_loc     0x0000bd7a      0x498 contiki-avr-raven.a(sysman.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_loc     0x0000c212       0x98 contiki-avr-raven.a(sysman-arch.o)
+examples/snmpd-raven/contiki-avr-raven.map: .debug_ranges  0x000004a8       0x38 contiki-avr-raven.a(sysman.o)
+Binary file examples/netconf-light/working/netconf-light.avr-raven matches
+examples/netconf-light/netconf-light.c:#include "sysman.h"
+Binary file examples/netconf-light/netconf-light.avr-raven matches
+Binary file examples/netconf-light/obj_avr-raven/raven-lcd.o matches
+examples/netconf-light/obj_avr-raven/raven-lcd.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/netconf-light/obj_avr-raven/raven-lcd.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+Binary file examples/netconf-light/obj_avr-raven/sysman-arch.o matches
+examples/netconf-light/obj_avr-raven/sysman.d:obj_avr-raven/sysman.o: ../../core/sysman/sysman.c \
+examples/netconf-light/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h \
+examples/netconf-light/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h \
+examples/netconf-light/obj_avr-raven/sysman.d:../../core/sysman/sysman.c :
+examples/netconf-light/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h :
+examples/netconf-light/obj_avr-raven/sysman.d:  ../../core/net/mac/framer.h ../../platform/avr-raven/sysman-arch.h :
+examples/netconf-light/obj_avr-raven/sysman-arch.d:obj_avr-raven/sysman-arch.o: ../../platform/avr-raven/./sysman-arch.c \
+examples/netconf-light/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h \
+examples/netconf-light/obj_avr-raven/sysman-arch.d:../../platform/avr-raven/./sysman-arch.c :
+examples/netconf-light/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h ../../core/contiki-net.h :
+Binary file examples/netconf-light/obj_avr-raven/sysman.o matches
+Binary file examples/netconf-light/contiki-avr-raven.a matches
+examples/netconf-light/contiki-avr-raven.map:contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map:contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (avr_get_lcdmessage)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman-arch.o) (raven_get_temperature)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__divmodhi4)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__addsf3)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__mulsf3)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (__floatsisf)
+examples/netconf-light/contiki-avr-raven.map:                              contiki-avr-raven.a(sysman.o) (malloc)
+examples/netconf-light/contiki-avr-raven.map: .text          0x00007048      0x9d6 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .text          0x00007a1e      0x120 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map:                0x00007afa                sysman_set_temp
+examples/netconf-light/contiki-avr-raven.map: .data          0x00800550       0x62 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .data          0x008005b2       0x3a contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .bss           0x008015c5       0x68 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .bss           0x0080162d        0x0 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: COMMON         0x00803435        0x0 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map:                0x00000140       0x20 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map:                0x00000160       0x20 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map:                0x00000bc7      0x202 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map:                0x00000dc9      0x1ce contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_info    0x000068ed      0x798 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_info    0x00007085      0x595 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_abbrev  0x00001772      0x1ee contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_abbrev  0x00001960      0x18e contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_line    0x00004c98      0x7bf contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_line    0x00005457      0x2f6 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_frame   0x000007c0      0x1c0 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_frame   0x00000980      0x130 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_str     0x0000173c      0x1c2 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_str     0x000018fe      0x23d contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_loc     0x000032ba      0x570 contiki-avr-raven.a(sysman.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_loc     0x0000382a       0x98 contiki-avr-raven.a(sysman-arch.o)
+examples/netconf-light/contiki-avr-raven.map: .debug_ranges  0x000000b8       0x40 contiki-avr-raven.a(sysman.o)
+Binary file examples/netconf-light/test.hex matches
+examples/netconf-light/tosend/netconf-light/netconf-light.c:#include "sysman.h"
+Binary file examples/netconf-light/tosend.zip matches
+examples/webserver-ipv6-raven/obj_avr-raven/simplexml.d:obj_avr-raven/simplexml.o: ../../core/sysman/simplexml.c \
+examples/webserver-ipv6-raven/obj_avr-raven/simplexml.d:  ../../core/sysman/simplexml.h ../../core/sysman/../../core/lib/list.h
+examples/webserver-ipv6-raven/obj_avr-raven/simplexml.d:../../core/sysman/simplexml.c :
+examples/webserver-ipv6-raven/obj_avr-raven/simplexml.d:  ../../core/sysman/simplexml.h ../../core/sysman/../../core/lib/list.h :
+Binary file examples/webserver-ipv6-raven/obj_avr-raven/simplexml.o matches
+Binary file examples/webserver-ipv6-raven/obj_avr-raven/sysman-arch.o matches
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:obj_avr-raven/sysman.o: ../../core/sysman/sysman.c \
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h \
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:  ../../core/sys/rtimer.h ../../platform/avr-raven/sysman-arch.h \
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:  ../../core/sysman/simplexml.h
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:../../core/sysman/sysman.c :
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h :
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:  ../../core/sys/rtimer.h ../../platform/avr-raven/sysman-arch.h :
+examples/webserver-ipv6-raven/obj_avr-raven/sysman.d:  ../../core/sysman/simplexml.h :
+examples/webserver-ipv6-raven/obj_avr-raven/sysman-arch.d:obj_avr-raven/sysman-arch.o: ../../platform/avr-raven/./sysman-arch.c \
+examples/webserver-ipv6-raven/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h
+examples/webserver-ipv6-raven/obj_avr-raven/sysman-arch.d:../../platform/avr-raven/./sysman-arch.c :
+examples/webserver-ipv6-raven/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h :
+Binary file examples/webserver-ipv6-raven/obj_avr-raven/sysman.o matches
+Binary file examples/webserver-ipv6-raven/contiki-avr-raven.a matches
+examples/webserver-ipv6/obj_avr-raven/simplexml.d:obj_avr-raven/simplexml.o: ../../core/sysman/simplexml.c \
+examples/webserver-ipv6/obj_avr-raven/simplexml.d:  ../../core/sysman/simplexml.h ../../core/sysman/../../core/lib/list.h
+examples/webserver-ipv6/obj_avr-raven/simplexml.d:../../core/sysman/simplexml.c :
+examples/webserver-ipv6/obj_avr-raven/simplexml.d:  ../../core/sysman/simplexml.h ../../core/sysman/../../core/lib/list.h :
+Binary file examples/webserver-ipv6/obj_avr-raven/simplexml.o matches
+Binary file examples/webserver-ipv6/obj_avr-raven/sysman-arch.o matches
+examples/webserver-ipv6/obj_avr-raven/sysman.d:obj_avr-raven/sysman.o: ../../core/sysman/sysman.c \
+examples/webserver-ipv6/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h \
+examples/webserver-ipv6/obj_avr-raven/sysman.d:  ../../core/sys/rtimer.h ../../platform/avr-raven/sysman-arch.h \
+examples/webserver-ipv6/obj_avr-raven/sysman.d:  ../../core/sysman/simplexml.h
+examples/webserver-ipv6/obj_avr-raven/sysman.d:../../core/sysman/sysman.c :
+examples/webserver-ipv6/obj_avr-raven/sysman.d:  ../../core/sysman/sysman.h ../../core/contiki.h :
+examples/webserver-ipv6/obj_avr-raven/sysman.d:  ../../core/sys/rtimer.h ../../platform/avr-raven/sysman-arch.h :
+examples/webserver-ipv6/obj_avr-raven/sysman.d:  ../../core/sysman/simplexml.h :
+examples/webserver-ipv6/obj_avr-raven/sysman-arch.d:obj_avr-raven/sysman-arch.o: ../../platform/avr-raven/./sysman-arch.c \
+examples/webserver-ipv6/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h
+examples/webserver-ipv6/obj_avr-raven/sysman-arch.d:../../platform/avr-raven/./sysman-arch.c :
+examples/webserver-ipv6/obj_avr-raven/sysman-arch.d:  ../../platform/avr-raven/./sysman-arch.h :
+Binary file examples/webserver-ipv6/obj_avr-raven/sysman.o matches
+Binary file examples/webserver-ipv6/contiki-avr-raven.a matches
+Makefile.include:CONTIKI_SOURCEFILES += sysman.c sysman-arch.c #simplexml.c
+Makefile.include:                 net/rpl sys sysman cfs ctk lib/ctk loader . }
+platform/avr-raven/Makefile.avr-raven:CONTIKI_TARGET_SOURCEFILES += cfs-coffee.c cfs-coffee-arch.c sysman-arch.c
+platform/avr-raven/sysman-arch.h:void sysman_set_temp(char* value);
+platform/avr-raven/sysman-arch.c:#include "sysman-arch.h"
+platform/avr-raven/sysman-arch.c:	return "sysman-test";
+platform/avr-raven/sysman-arch.c:void sysman_set_temp(char* value){
+platform/avr-raven/apps/raven-lcd-interface/raven-lcd.c:#include "sysman-arch.h"
+platform/avr-raven/apps/raven-lcd-interface/raven-lcd.c:		sysman_set_temp((char *)cmd.frame);

@@ -1,0 +1,307 @@
+simplest possible program without anything
+
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   37302 bytes (28.5% Full)
+(.text + .data + .bootloader)
+
+Data:      10944 bytes (66.8% Full)
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+
+FREE STACK: 5277 bytes
+*********************************************
+
+added CFS:
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   44804 bytes (34.2% Full)           //CFS takes up 7502 bytes
+(.text + .data + .bootloader)
+
+Data:      11036 bytes (67.4% Full)	      //CFS takes up 92 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+
+*********************************************
+
+simplest server with netconf-light added without sysman
+
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   62590 bytes (47.8% Full)          //30288 bytes
+(.text + .data + .bootloader)
+
+Data:      11663 bytes (71.2% Full)          //719 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+**********************************************
+same but without the xml parser:
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   55730 bytes (42.5% Full)         //parser takes up 6860 bytes
+(.text + .data + .bootloader)
+
+Data:      11493 bytes (70.1% Full)         //parser takes up 170 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+
+**********************************************
+simplest server with netconf-light and sysman for operational state
+
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   70090 bytes (53.5% Full)          //32788 bytes
+(.text + .data + .bootloader)
+
+Data:      12191 bytes (74.4% Full)	     //1247 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+**********************************************
+
+So clear netconf-light takes up 719 bytes of statically allocated RAM and 30288 bytes of ROM
+out of which:
+the xml parser takes up 170 bytes of RAM and 6860 bytes of ROM
+the CFS takes up 92 bytes of RAM and 7502 bytes of ROM
+STACK USAGE 678 bytes
+Stack free 3368 bytes
+
+*********************************************
+simple program with 512 bytes allocated with mmem_init()
+
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   37540 bytes (28.6% Full)          //mmem_init() increases ROM by 238 bytes
+(.text + .data + .bootloader)
+
+Data:      11460 bytes (69.9% Full)	     //clearly increases RAM by 516 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+*********************************************
+simple program that uses TLS_WITH_PSK_AES_128_CCM_8
+
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   51598 bytes (39.4% Full)          //AES with CCM8 takes 14058 bytes
+(.text + .data + .bootloader)
+
+Data:      11770 bytes (71.8% Full)          //AES with CCM8 takes 310 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+**********************************************
+simple program that uses hmac_sha256
+
+avr-size -C --mcu=atmega1284p tcp-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   41134 bytes (31.4% Full)         //hmac_sha256 takes 3594 bytes
+(.text + .data + .bootloader)
+
+Data:      11748 bytes (71.7% Full)         //hmac_sha256 takes 288 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+
+**********************************************
+simple TLS server application:
+avr-size -C --mcu=atmega1284p tls-server.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   74742 bytes (57.0% Full)         // 38266 bytes (+826 bytes for rehandshake)
+(.text + .data + .bootloader)
+
+Data:      12805 bytes (78.2% Full)         //1889 bytes (+28 bytes for rehandshake)
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+STACK USAGE in worst case: 1834 bytes (server) and 1844 (client)
+STACK left in worst case: 1554 bytes (server) and 1544 bytes (client)
+
+TLS with support of TLS_WITH_PSK_AES_128_CCM_8 takes up 37440 bytes of ROM and 1861 bytes of RAM
+of which:
+mmem_init() needed for dynamic memory allocation takes up 238 bytes of ROM and 516 bytes of RAM
+AES with CCM8 takes up 14058 bytes of ROM and 310 bytes of RAM
+CFS takes up 7502 bytes of ROM and 92 bytes of RAM 
+hmac_sha256 takes 3594 bytes of ROM and 288 bytes of RAM
+(1889-516-310-92-288 = 683 bytes of RAM for my code, 38266-238-14058-7502-3594=12874)
+
+
+**********************************************
+simple DTLS server application:
+avr-size -C --mcu=atmega1284p dtls-server1.avr-raven 
+AVR Memory Usage
+----------------
+Device: atmega1284p
+
+Program:   74534 bytes (56.9% Full)         //37232 bytes
+(.text + .data + .bootloader)
+
+Data:      12905 bytes (78.8% Full)         //1961 bytes
+(.data + .bss + .noinit)
+
+EEPROM:       10 bytes (0.2% Full)
+(.eeprom)
+
+
+DTLS with support of TLS_WITH_PSK_AES_128_CCM_8 takes up 37232 bytes of ROM and 1961 bytes of RAM
+of which:
+mmem_init() needed for dynamic memory allocation takes up 238 bytes of ROM and 516 bytes of RAM
+AES with CCM8 takes up 14058 bytes of ROM and 310 bytes of RAM
+hmac_sha256 takes 3594 bytes of ROM and 288 bytes of RAM
+(1961-516-310-288 = 847 bytes of RAM for my code, 37232-238-14058-3594=19342)
+
+DTLS handshake takes approximately 2 seconds to complete (faster than TLS likely due to tcp stack slowing tls down)
+STACK USAGE in worst case 2454 bytes (server) and 2402 (client)
+STACK left in worst case 786 (server) and 746 (client)
+
+
+TIMINGS
+*************************
+DTLS client:
+	
+send CH
+
+receive HVR
+process HVR 
+send CH (overall 0.032s)
+
+receive SH/SHD
+process SH/SHD
+generate master secret+keys (0.632)
+generate CKE
+generate CCS
+generate F (0.264s)
+send CKE/CCS/F (overall 0.912s)
+
+receive CCS/F
+process CCS/F
+send connected event (overall 0.2)
+
+time spent on client side - 1.144 seconds
+_____________________________
+DTLS server:
+
+receive CH
+generate HVR
+send HVR (overall 0.112 s)
+
+receive CH
+process CH
+generate SH/SHD
+send SH/SHD (0.16 s)
+
+receive CKE/CCS/F
+generate master secret+keys
+process CKE/F
+generate CCS/F (overall 1.088)
+
+time spent on server side - 1.36 seconds
+_______________________________________
+rtt = 0.023.. time in transit 0.023*6 = 0.138
+overall time for handshake 2.642
+
+****************************
+TLS client
+establish TCP connection: 0.048
+generate and send CH: virtually nothing..
+
+receive SH/SHD
+process SH/SHD
+generate master secret+keys
+generate and CKE/CCS/F
+overall 0.96s
+
+receive CCS/F
+process
+send connected_event
+overal 0.232
+
+time spent on client side - 1.24 s
+_______________________________________
+TLS server
+establish TCP connection 0.048
+
+receive CH
+process/generate SH/SHD
+send SH/SHD
+overall 0.024
+
+receive CKE/CCS/F
+retrieve RSK from Flash
+process
+generate master secret+keys
+generate/send CCS/F
+overall 1.14
+
+time spent on server side - 1.164
+time in transit = 0.023*4 = 0.092
+
+overall time for handshake 2.496
+
+
+Encryption of 100 bytes takes 0.016 seconds
+*********************************
+
+Netconf-light server
+
+process get-config request and send a reply: 0.592
+process copy-config request and send a reply: 0.752
+process close request and send a reply: 0.384
+
+one read from flash (open file, read, close file) is very fast. 100 bytes are read in less than a clock tick, so faster than 1/125th of a second. 
+200 short reads take around 0.04 seconds.
+writing 100 bytes (openning file, writing, closing file) takes about 0.016 seconds.
+generating xml and writing the result to the file takes most of the time, since each XML tag requires at least 3 writes but can be as many as 10 writes or even more depending on the number of attributes.
+
+parsing of get-config and generating output takes 0.456
+for copy-config - 0.68
+for close - 0.32

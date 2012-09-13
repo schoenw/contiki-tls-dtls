@@ -1,0 +1,2 @@
+netconf-light_src=netconf-light.c simplexml2.c
+COFFEE_FILES=3

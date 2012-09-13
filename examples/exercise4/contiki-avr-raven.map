@@ -1,0 +1,1643 @@
+Archive member included because of file (symbol)
+
+contiki-avr-raven.a(list.o)   udp-server.co (list_init)
+contiki-avr-raven.a(etimer.o)
+                              udp-server.co (etimer_stop)
+contiki-avr-raven.a(uip6.o)   udp-server.co (uip_send)
+contiki-avr-raven.a(tcpip.o)  contiki-avr-raven.a(uip6.o) (tcpip_uipcall)
+contiki-avr-raven.a(uip-split.o)
+                              contiki-avr-raven.a(tcpip.o) (uip_split_output)
+contiki-avr-raven.a(uip-icmp6.o)
+                              contiki-avr-raven.a(uip6.o) (uip_icmp6_echo_request_input)
+contiki-avr-raven.a(uip-nd6.o)
+                              contiki-avr-raven.a(uip6.o) (uip_nd6_ra_input)
+contiki-avr-raven.a(uip-packetqueue)
+                              contiki-avr-raven.a(tcpip.o) (uip_packetqueue_buf)
+contiki-avr-raven.a(uip-ds6.o)
+                              contiki-avr-raven.a(uip-nd6.o) (uip_ds6_defrt_rm)
+contiki-avr-raven.a(raven-lcd.o)
+                              udp-server.co (raven_lcd_show_text)
+contiki-avr-raven.a(contiki-raven-m)
+                              contiki-avr-raven.a(raven-lcd.o) (rf230_driver)
+contiki-avr-raven.a(cfs-coffee.o)
+                              udp-server.co (cfs_close)
+contiki-avr-raven.a(cfs-coffee-arch)
+                              contiki-avr-raven.a(cfs-coffee.o) (avr_flash_read)
+contiki-avr-raven.a(clock.o)  contiki-avr-raven.a(raven-lcd.o) (clock_adjust_seconds)
+contiki-avr-raven.a(rs232.o)  contiki-avr-raven.a(contiki-raven-m) (rs232_init)
+contiki-avr-raven.a(watchdog.o)
+                              contiki-avr-raven.a(contiki-raven-m) (watchdog_init)
+contiki-avr-raven.a(rf230bb.o)
+                              contiki-avr-raven.a(contiki-raven-m) (rf230_get_channel)
+contiki-avr-raven.a(halbb.o)  contiki-avr-raven.a(rf230bb.o) (hal_init)
+contiki-avr-raven.a(rimeaddr.o)
+                              contiki-avr-raven.a(contiki-raven-m) (rimeaddr_set_node_addr)
+contiki-avr-raven.a(rimestats.o)
+                              contiki-avr-raven.a(rf230bb.o) (rimestats)
+contiki-avr-raven.a(nullmac.o)
+                              contiki-avr-raven.a(contiki-raven-m) (nullmac_driver)
+contiki-avr-raven.a(sicslowmac.o)
+                              contiki-avr-raven.a(contiki-raven-m) (sicslowmac_driver)
+contiki-avr-raven.a(process.o)
+                              contiki-avr-raven.a(tcpip.o) (process_alloc_event)
+contiki-avr-raven.a(autostart.o)
+                              contiki-avr-raven.a(contiki-raven-m) (autostart_start)
+contiki-avr-raven.a(memb.o)   contiki-avr-raven.a(uip-packetqueue) (memb_alloc)
+contiki-avr-raven.a(timer.o)  contiki-avr-raven.a(etimer.o) (timer_reset)
+contiki-avr-raven.a(ctimer.o)
+                              contiki-avr-raven.a(uip-packetqueue) (ctimer_stop)
+contiki-avr-raven.a(rtimer.o)
+                              contiki-avr-raven.a(contiki-raven-m) (rtimer_init)
+contiki-avr-raven.a(stimer.o)
+                              contiki-avr-raven.a(uip-nd6.o) (stimer_remaining)
+contiki-avr-raven.a(random.o)
+                              contiki-avr-raven.a(uip-ds6.o) (random_rand)
+contiki-avr-raven.a(packetbuf.o)
+                              contiki-avr-raven.a(sicslowmac.o) (packetbuf_hdralloc)
+contiki-avr-raven.a(queuebuf.o)
+                              contiki-avr-raven.a(contiki-raven-m) (queuebuf_init)
+contiki-avr-raven.a(sicslowpan.o)
+                              contiki-avr-raven.a(contiki-raven-m) (sicslowpan_driver)
+contiki-avr-raven.a(rtimer-arch.o)
+                              contiki-avr-raven.a(rtimer.o) (rtimer_arch_init)
+contiki-avr-raven.a(frame802154.o)
+                              contiki-avr-raven.a(sicslowmac.o) (frame802154_parse)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_mulsi3.o)
+                              contiki-avr-raven.a(uip-ds6.o) (__mulsi3)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodhi4.o)
+                              contiki-avr-raven.a(uip-ds6.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodsi4.o)
+                              contiki-avr-raven.a(tcpip.o) (__udivmodsi4)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o (exit)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_clear_bss.o)
+                              udp-server.co (__do_clear_bss)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+                              udp-server.co (malloc)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o)
+                              contiki-avr-raven.a(random.o) (rand)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy_P.o)
+                              udp-server.co (strcpy_P)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcmp.o)
+                              contiki-avr-raven.a(uip6.o) (memcmp)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcpy.o)
+                              udp-server.co (memcpy)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memmove.o)
+                              contiki-avr-raven.a(uip-icmp6.o) (memmove)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memset.o)
+                              contiki-avr-raven.a(memb.o) (memset)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcat.o)
+                              udp-server.co (strcat)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strchr.o)
+                              udp-server.co (strchr)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+                              udp-server.co (strcmp)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+                              udp-server.co (strcpy)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strncmp.o)
+                              udp-server.co (strncmp)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(eerd_block.o)
+                              contiki-avr-raven.a(contiki-raven-m) (__eerd_block)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+                              contiki-avr-raven.a(rs232.o) (__iob)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf.o)
+                              udp-server.co (printf)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf_p.o)
+                              contiki-avr-raven.a(contiki-raven-m) (printf_P)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(puts.o)
+                              udp-server.co (puts)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(sprintf.o)
+                              udp-server.co (sprintf)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                              contiki-avr-raven.a(rs232.o) (vsnprintf)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf.o) (vfprintf)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (fputc)
+/usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (__ultoa_invert)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_divmodsi4.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+rf230_last_correlation
+                    0x1               contiki-avr-raven.a(rf230bb.o)
+rf230_last_rssi     0x1               contiki-avr-raven.a(rf230bb.o)
+rf230_time_of_departure
+                    0x2               contiki-avr-raven.a(rf230bb.o)
+uip_ds6_if          0xeb              contiki-avr-raven.a(uip-ds6.o)
+sicslowpan_mac      0x2               contiki-avr-raven.a(sicslowpan.o)
+uip_len             0x2               contiki-avr-raven.a(uip6.o)
+rimestats           0x48              contiki-avr-raven.a(rimestats.o)
+uip_sappdata        0x2               contiki-avr-raven.a(uip6.o)
+packetbuf_addrs     0x20              contiki-avr-raven.a(packetbuf.o)
+uip_acc32           0x4               contiki-avr-raven.a(uip6.o)
+uip_ds6_prefix_list
+                    0x6c              contiki-avr-raven.a(uip-ds6.o)
+rimeaddr_node_addr  0x8               contiki-avr-raven.a(rimeaddr.o)
+frag_sender         0x8               contiki-avr-raven.a(sicslowpan.o)
+rf230_calibrate     0x1               contiki-avr-raven.a(rf230bb.o)
+dest_addr           0x10              contiki-avr-raven.a(raven-lcd.o)
+uip_lladdr          0x8               contiki-avr-raven.a(uip6.o)
+uip_aligned_buf     0x500             contiki-avr-raven.a(uip6.o)
+uip_flags           0x1               contiki-avr-raven.a(uip6.o)
+eeprom_channel      0x1               contiki-avr-raven.a(contiki-raven-m)
+__brkval            0x2               /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+uip_ds6_timer_periodic
+                    0x8               contiki-avr-raven.a(uip-ds6.o)
+uip_next_hdr        0x2               contiki-avr-raven.a(uip6.o)
+uip_ds6_defrt_list  0x34              contiki-avr-raven.a(uip-ds6.o)
+uip_udp_conn        0x2               contiki-avr-raven.a(uip6.o)
+rf230_calibrated    0x1               contiki-avr-raven.a(rf230bb.o)
+packetbuf_attrs     0x30              contiki-avr-raven.a(packetbuf.o)
+uip_ds6_nbr_cache   0x3c0             contiki-avr-raven.a(uip-ds6.o)
+serial_char_received
+                    0x1               contiki-avr-raven.a(raven-lcd.o)
+rf230_authority_level_of_sender
+                    0x2               contiki-avr-raven.a(rf230bb.o)
+uip_appdata         0x2               contiki-avr-raven.a(uip6.o)
+rf230_time_of_arrival
+                    0x2               contiki-avr-raven.a(rf230bb.o)
+uip_conn            0x2               contiki-avr-raven.a(uip6.o)
+rxframe_tail        0x1               contiki-avr-raven.a(rf230bb.o)
+tcpip_event         0x1               contiki-avr-raven.a(tcpip.o)
+uip_conns           0x2c              contiki-avr-raven.a(uip6.o)
+uip_icmp6_conns     0x4               contiki-avr-raven.a(uip6.o)
+rxframe_head        0x1               contiki-avr-raven.a(rf230bb.o)
+rxframe             0x82              contiki-avr-raven.a(rf230bb.o)
+sleepseconds        0x4               contiki-avr-raven.a(clock.o)
+seconds             0x4               contiki-avr-raven.a(clock.o)
+osccal_original     0x1               contiki-avr-raven.a(rf230bb.o)
+uip_listenports     0x2               contiki-avr-raven.a(uip6.o)
+RF230_sleeping      0x1               contiki-avr-raven.a(rf230bb.o)
+uip_ds6_timer_rs    0x8               contiki-avr-raven.a(uip-ds6.o)
+RF230_receive_on    0x1               contiki-avr-raven.a(rf230bb.o)
+osccal_calibrated   0x1               contiki-avr-raven.a(rf230bb.o)
+__flp               0x2               /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+uip_ds6_routing_table
+                    0x398             contiki-avr-raven.a(uip-ds6.o)
+__iob               0x6               /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+tcpip_icmp6_event   0x1               contiki-avr-raven.a(tcpip.o)
+uip_slen            0x2               contiki-avr-raven.a(uip6.o)
+uip_udp_conns       0xfa              contiki-avr-raven.a(uip6.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+Address of section .coffeefiles set to 0x10000
+Address of section .bootloader set to 0x1f800
+LOAD udp-server.co
+LOAD contiki-avr-raven.a
+LOAD /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a
+LOAD /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0xdbbc
+ *(.vectors)
+ .vectors       0x00000000       0x8c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x0000008c       0xd6 udp-server.co
+                0x0000008c                hello_message
+ .progmem.data  0x00000162       0x50 contiki-avr-raven.a(contiki-raven-m)
+ .progmem.data  0x000001b2      0x10f contiki-avr-raven.a(cfs-coffee-arch)
+                0x000002c2                . = ALIGN (0x2)
+ *fill*         0x000002c1        0x1 00
+                0x000002c2                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000002c2        0x0 linker stubs
+ *(.trampolines*)
+                0x000002c2                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000002c2                __ctors_start = .
+ *(.ctors)
+                0x000002c2                __ctors_end = .
+                0x000002c2                __dtors_start = .
+ *(.dtors)
+                0x000002c2                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000002c2        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+                0x000002c2                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000002c2        0xc /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000002ce       0x1a /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+                0x000002ce                __do_copy_data
+ .init4         0x000002e8       0x10 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_clear_bss.o)
+                0x000002e8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000002f8        0x8 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000300        0x4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+                0x00000300                __vector_1
+                0x00000300                __vector_34
+                0x00000300                __vector_24
+                0x00000300                __bad_interrupt
+                0x00000300                __vector_6
+                0x00000300                __vector_31
+                0x00000300                __vector_3
+                0x00000300                __vector_23
+                0x00000300                __vector_25
+                0x00000300                __vector_11
+                0x00000300                __vector_13
+                0x00000300                __vector_17
+                0x00000300                __vector_19
+                0x00000300                __vector_7
+                0x00000300                __vector_27
+                0x00000300                __vector_5
+                0x00000300                __vector_33
+                0x00000300                __vector_4
+                0x00000300                __vector_2
+                0x00000300                __vector_21
+                0x00000300                __vector_29
+                0x00000300                __vector_8
+                0x00000300                __vector_26
+                0x00000300                __vector_14
+                0x00000300                __vector_10
+                0x00000300                __vector_18
+ .text          0x00000304     0x29d6 udp-server.co
+                0x00000304                simpleXmlGetLineNumber
+                0x0000032a                simpleXmlParseAbort
+                0x0000033e                simpleXmlNopHandler
+                0x00000344                initializeSimpleXmlParser
+                0x000003a4                simpleXmlInitializeParser
+                0x000003aa                getSimpleXmlParseErrorDescription
+                0x0000047e                simpleXmlGetErrorDescription
+                0x00000484                peekInputCharAt
+                0x000004c0                peekInputChar
+                0x000004f8                skipInputChar
+                0x00000582                skipInputChars
+                0x000005b4                readInputChar
+                0x00000600                skipWhitespace
+                0x0000065a                clearSimpleXmlValueBuffer
+                0x00000676                getSimpleXmlValueBufferContentLength
+                0x0000068e                simpleXmlGetUserData
+                0x000006a2                simpleXmlSetUserData
+                0x000006c0                simpleXmlGetAttrUri
+                0x000006da                simpleXmlGetAttrName
+                0x000006f8                simpleXmlGetAttrValue
+                0x00000712                simpleXmlGetNumOfAttrs
+                0x0000072c                simpleXmlEndDocument
+                0x0000072e                strdup
+                0x0000076a                simpleXmlAddAttribute
+                0x0000085a                destroySimpleXmlValueBuffer
+                0x0000087c                createSimpleXmlValueBuffer
+                0x000008de                freeAttributes
+                0x00000906                createSimpleXmlParser
+                0x000009a8                simpleXmlCreateParser
+                0x000009ae                simpleXmlEndElement
+                0x00000ae2                simpleXmlCharacters
+                0x00000baa                simpleXmlStartElement
+                0x00001472                simpleXmlStartDocument
+                0x000014d8                getSimpleXmlValueBufferContents
+                0x00001532                growSimpleXmlValueBuffer
+                0x000015ac                zeroTerminateSimpleXmlValueBuffer
+                0x000015fa                getInternalSimpleXmlValueBufferContents
+                0x0000161a                appendCharToSimpleXmlValueBuffer
+                0x00001680                appendStringToSimpleXmlValueBuffer
+                0x000016b6                addNextTokenCharValue
+                0x000016e2                addNextTokenStringValue
+                0x00001718                readChar
+                0x00001b5a                readNextContentToken
+                0x00002086                readNextTagToken
+                0x000022ce                findNamespaceValue
+                0x00002320                addNamespace
+                0x00002374                parseOneTag
+                0x0000278e                parseSimpleXml
+                0x0000282c                simpleXmlParse
+                0x0000284c                destroySimpleXmlParser
+                0x000028ac                simpleXmlDestroyParser
+ .text          0x00002cda      0x25e contiki-avr-raven.a(list.o)
+                0x00002cda                list_init
+                0x00002ce2                list_head
+                0x00002cea                list_copy
+                0x00002cf8                list_tail
+                0x00002d1a                list_add
+                0x00002d92                list_push
+                0x00002dec                list_chop
+                0x00002e3a                list_pop
+                0x00002e52                list_remove
+                0x00002e9c                list_length
+                0x00002ebc                list_insert
+                0x00002f24                list_item_next
+ .text          0x00002f38      0x2e4 contiki-avr-raven.a(etimer.o)
+                0x00002f38                etimer_expired
+                0x00002f4e                etimer_expiration_time
+                0x00002f60                etimer_start_time
+                0x00002f68                etimer_pending
+                0x00002f7e                etimer_next_expiration_time
+                0x00003002                etimer_stop
+                0x00003052                etimer_adjust
+                0x00003066                etimer_request_poll
+                0x000031da                etimer_restart
+                0x000031f0                etimer_reset
+                0x00003206                etimer_set
+ .text          0x0000321c     0x169c contiki-avr-raven.a(uip6.o)
+                0x0000321c                uip_add32
+                0x0000328c                uip_chksum
+                0x000032dc                uip_ipchksum
+                0x00003402                uip_icmp6chksum
+                0x0000340a                uip_tcpchksum
+                0x00003412                uip_udpchksum
+                0x0000341a                uip_connect
+                0x000034e6                uip_unlisten
+                0x0000350a                uip_listen
+                0x00003560                uip_htons
+                0x00003568                uip_htonl
+                0x000035a2                uip_send
+                0x00003698                uip_process
+                0x00004776                uip_udp_new
+                0x0000486e                uip_init
+ .text          0x000048b8      0x742 contiki-avr-raven.a(tcpip.o)
+                0x000048b8                tcpip_output
+                0x000048cc                tcpip_set_outputfunc
+                0x000048d6                tcp_attach
+                0x000048ea                udp_attach
+                0x000048fe                icmp6_new
+                0x0000492c                tcp_unlisten
+                0x00004982                tcpip_uipcall
+                0x000049fa                tcpip_input
+                0x00004a16                tcpip_icmp6_call
+                0x00004a44                tcpip_poll_tcp
+                0x00004a52                tcpip_poll_udp
+                0x00004a60                tcpip_ipv6_output
+                0x00004eec                udp_new
+                0x00004f14                udp_broadcast_new
+                0x00004f84                tcp_listen
+                0x00004fbe                tcp_connect
+ .text          0x00004ffa       0xda contiki-avr-raven.a(uip-split.o)
+                0x00004ffa                uip_split_output
+ .text          0x000050d4      0x336 contiki-avr-raven.a(uip-icmp6.o)
+                0x000050d4                uip_icmp6_send
+                0x0000517c                uip_icmp6_echo_request_input
+                0x00005256                uip_icmp6_error_output
+ .text          0x0000540a      0xf50 contiki-avr-raven.a(uip-nd6.o)
+                0x0000540a                uip_nd6_ra_input
+                0x000059b8                uip_nd6_rs_output
+                0x00005ae6                uip_nd6_ns_output
+                0x00005c4a                uip_nd6_na_input
+                0x00005f00                uip_nd6_ns_input
+ .text          0x0000635a       0xec contiki-avr-raven.a(uip-packetqueue)
+                0x0000635a                uip_packetqueue_new
+                0x00006362                uip_packetqueue_buf
+                0x0000637a                uip_packetqueue_buflen
+                0x0000639a                uip_packetqueue_set_buflen
+                0x000063b0                uip_packetqueue_free
+                0x000063fc                uip_packetqueue_alloc
+ .text          0x00006446     0x10e0 contiki-avr-raven.a(uip-ds6.o)
+                0x00006446                uip_ds6_defrt_rm
+                0x00006450                uip_ds6_prefix_rm
+                0x0000645a                uip_ds6_get_link_local
+                0x000064ba                uip_ds6_get_global
+                0x0000651a                uip_ds6_maddr_rm
+                0x00006524                uip_ds6_aaddr_rm
+                0x0000652e                uip_ds6_route_rm
+                0x00006534                uip_ds6_select_src
+                0x00006626                get_match_length
+                0x00006664                uip_ds6_compute_reachable_time
+                0x000066c4                uip_ds6_dad
+                0x00006732                uip_ds6_set_addr_iid
+                0x0000675c                uip_ds6_route_rm_by_nexthop
+                0x000067b2                uip_ds6_route_lookup
+                0x00006834                uip_ds6_is_addr_onlink
+                0x00006894                uip_ds6_list_loop
+                0x0000692e                uip_ds6_route_add
+                0x000069c8                uip_ds6_aaddr_lookup
+                0x00006a04                uip_ds6_aaddr_add
+                0x00006a64                uip_ds6_maddr_lookup
+                0x00006aa0                uip_ds6_addr_rm
+                0x00006b16                uip_ds6_dad_failed
+                0x00006b38                uip_ds6_maddr_add
+                0x00006b98                uip_ds6_addr_lookup
+                0x00006bd4                uip_ds6_prefix_lookup
+                0x00006c10                uip_ds6_defrt_lookup
+                0x00006c4c                uip_ds6_nbr_lookup
+                0x00006c88                uip_ds6_defrt_choose
+                0x00006cfe                uip_ds6_send_rs
+                0x00006d34                uip_ds6_addr_add
+                0x00006e64                uip_ds6_prefix_add
+                0x00006f10                uip_ds6_defrt_add
+                0x00006fba                uip_ds6_nbr_rm
+                0x00006fca                uip_ds6_init
+                0x0000715e                uip_ds6_nbr_add
+                0x000072a6                uip_ds6_periodic
+ .text          0x00007526      0x33a contiki-avr-raven.a(raven-lcd.o)
+                0x00007526                __vector_9
+                0x00007596                raven_lcd_show_text
+                0x000075b2                raven_lcd_serial_input
+                0x0000762c                micro_sleep
+                0x000076d0                raven_ping6
+ .text          0x00007860      0x2b2 contiki-avr-raven.a(contiki-raven-m)
+                0x00007870                log_message
+                0x000078aa                initialize
+                0x00007b04                main
+ .text          0x00007b12      0xdac contiki-avr-raven.a(cfs-coffee.o)
+                0x00007b12                cfs_close
+                0x00007b54                cfs_seek
+                0x00007be2                cfs_closedir
+                0x00007be4                cfs_coffee_get_protected_mem
+                0x00007bf4                cfs_coffee_format
+                0x00007c1e                cfs_opendir
+                0x00007f1c                cfs_read
+                0x00007f9e                cfs_coffee_configure_log
+                0x00008148                cfs_remove
+                0x000083dc                cfs_coffee_reserve
+                0x00008400                cfs_open
+                0x000084fe                cfs_readdir
+                0x000087fe                cfs_write
+ .text          0x000088be      0xb6a contiki-avr-raven.a(cfs-coffee-arch)
+                0x000088be                avr_flash_read
+                0x00008974                avr_httpd_fs_getchar
+                0x00008996                avr_httpd_fs_strcmp
+                0x00008a18                avr_httpd_fs_strchr
+                0x00008ab2                coffee_file_test
+ .text          0x00009428      0x1c0 contiki-avr-raven.a(clock.o)
+                0x00009428                clock_adjust_seconds
+                0x000094a8                clock_init
+                0x000094c8                clock_time
+                0x000094e2                clock_delay
+                0x000094f8                clock_wait
+                0x00009532                clock_set_seconds
+                0x00009534                clock_seconds
+                0x00009564                __vector_16
+ .text          0x000095e8      0x300 contiki-avr-raven.a(rs232.o)
+                0x000095e8                __vector_22
+                0x00009600                __vector_20
+                0x00009664                __vector_30
+                0x0000967c                __vector_28
+                0x000096e0                rs232_init
+                0x0000971a                rs232_print_p
+                0x00009762                rs232_print
+                0x000097cc                rs232_send
+                0x000097f8                rs232_set_input
+                0x00009816                slip_arch_writeb
+                0x00009830                rs232_stdout_putchar
+                0x000098a0                rs232_redirect_stdout
+                0x000098b2                rs232_printf
+ .text          0x000098e8       0x7a contiki-avr-raven.a(watchdog.o)
+                0x000098e8                watchdog_init
+                0x00009908                watchdog_start
+                0x00009932                watchdog_periodic
+                0x00009936                watchdog_stop
+                0x00009948                watchdog_reboot
+ .text          0x00009962      0x95c contiki-avr-raven.a(rf230bb.o)
+                0x00009962                rf230_set_promiscuous_mode
+                0x00009968                calibrate_rc_osc_32k
+                0x00009a60                rf230_get_channel
+                0x00009a90                rf230_is_ready_to_send
+                0x00009aca                rf230_get_txpower
+                0x00009bce                rf230_on
+                0x00009ca4                rf230_off
+                0x00009d02                rf230_get_raw_rssi
+                0x00009d6e                rf230_set_txpower
+                0x00009d7e                rf230_set_channel
+                0x00009d9a                rf230_listen_channel
+                0x00009eda                rf230_interrupt
+                0x0000a14c                rf230_set_pan_addr
+                0x0000a218                rf230_init
+ .text          0x0000a2be      0x32e contiki-avr-raven.a(halbb.o)
+                0x0000a2be                hal_init
+                0x0000a2f8                hal_register_read
+                0x0000a32e                hal_register_write
+                0x0000a364                hal_subregister_read
+                0x0000a38a                hal_subregister_write
+                0x0000a3fe                hal_frame_read
+                0x0000a460                hal_frame_write
+                0x0000a4b8                __vector_15
+                0x0000a4e6                __vector_12
+ .text          0x0000a5ec       0x76 contiki-avr-raven.a(rimeaddr.o)
+                0x0000a5ec                rimeaddr_copy
+                0x0000a60e                rimeaddr_cmp
+                0x0000a640                rimeaddr_set_node_addr
+ .text          0x0000a662        0x0 contiki-avr-raven.a(rimestats.o)
+ .text          0x0000a662       0x38 contiki-avr-raven.a(nullmac.o)
+ .text          0x0000a69a      0x250 contiki-avr-raven.a(sicslowmac.o)
+ .text          0x0000a8ea      0x3a2 contiki-avr-raven.a(process.o)
+                0x0000a8ea                process_alloc_event
+                0x0000aa20                process_exit
+                0x0000aa2e                process_init
+                0x0000aa4e                process_run
+                0x0000ab8e                process_nevents
+                0x0000aba0                process_post
+                0x0000abe8                process_post_synch
+                0x0000ac06                process_start
+                0x0000ac60                process_poll
+                0x0000ac78                process_is_running
+ .text          0x0000ac8c       0x38 contiki-avr-raven.a(autostart.o)
+                0x0000ac8c                autostart_exit
+                0x0000aca6                autostart_start
+ .text          0x0000acc4      0x144 contiki-avr-raven.a(memb.o)
+                0x0000acc4                memb_alloc
+                0x0000ad20                memb_free
+                0x0000ad7c                memb_inmemb
+                0x0000adc2                memb_init
+ .text          0x0000ae08       0xa0 contiki-avr-raven.a(timer.o)
+                0x0000ae08                timer_reset
+                0x0000ae1c                timer_remaining
+                0x0000ae46                timer_expired
+                0x0000ae76                timer_restart
+                0x0000ae8c                timer_set
+ .text          0x0000aea8      0x26e contiki-avr-raven.a(ctimer.o)
+                0x0000af76                ctimer_expired
+                0x0000afbe                ctimer_stop
+                0x0000afee                ctimer_restart
+                0x0000b042                ctimer_set
+                0x0000b0a8                ctimer_reset
+                0x0000b0fc                ctimer_init
+ .text          0x0000b116       0x7a contiki-avr-raven.a(rtimer.o)
+                0x0000b116                rtimer_run_next
+                0x0000b154                rtimer_set
+                0x0000b18a                rtimer_init
+ .text          0x0000b190      0x12a contiki-avr-raven.a(stimer.o)
+                0x0000b190                stimer_reset
+                0x0000b1b4                stimer_elapsed
+                0x0000b1de                stimer_remaining
+                0x0000b22a                stimer_expired
+                0x0000b27c                stimer_restart
+                0x0000b296                stimer_set
+ .text          0x0000b2ba        0xc contiki-avr-raven.a(random.o)
+                0x0000b2ba                random_rand
+                0x0000b2c0                random_init
+ .text          0x0000b2c6      0x3ea contiki-avr-raven.a(packetbuf.o)
+                0x0000b2c6                packetbuf_clear_hdr
+                0x0000b2ce                packetbuf_hdralloc
+                0x0000b30c                packetbuf_hdr_remove
+                0x0000b318                packetbuf_hdrreduce
+                0x0000b356                packetbuf_set_datalen
+                0x0000b360                packetbuf_dataptr
+                0x0000b37a                packetbuf_hdrptr
+                0x0000b38e                packetbuf_is_reference
+                0x0000b3b2                packetbuf_reference_ptr
+                0x0000b3bc                packetbuf_datalen
+                0x0000b3c6                packetbuf_hdrlen
+                0x0000b3d0                packetbuf_totlen
+                0x0000b3e8                packetbuf_set_attr
+                0x0000b3fe                packetbuf_attr
+                0x0000b410                packetbuf_addr
+                0x0000b426                packetbuf_set_addr
+                0x0000b440                packetbuf_attr_clear
+                0x0000b482                packetbuf_clear
+                0x0000b4b0                packetbuf_reference
+                0x0000b4da                packetbuf_attr_copyfrom
+                0x0000b4fc                packetbuf_attr_copyto
+                0x0000b51e                packetbuf_copyto
+                0x0000b5ba                packetbuf_copyto_hdr
+                0x0000b5f2                packetbuf_compact
+                0x0000b664                packetbuf_copyfrom
+ .text          0x0000b6b0      0x1a2 contiki-avr-raven.a(queuebuf.o)
+                0x0000b6b0                queuebuf_datalen
+                0x0000b6b8                queuebuf_addr
+                0x0000b6d0                queuebuf_attr
+                0x0000b6e6                queuebuf_debug_print
+                0x0000b6e8                queuebuf_dataptr
+                0x0000b724                queuebuf_to_packetbuf
+                0x0000b796                queuebuf_free
+                0x0000b7ce                queuebuf_new_from_packetbuf
+                0x0000b840                queuebuf_init
+ .text          0x0000b852     0x12ba contiki-avr-raven.a(sicslowpan.o)
+                0x0000c188                sicslowpan_init
+ .text          0x0000cb0c       0xae contiki-avr-raven.a(rtimer-arch.o)
+                0x0000cb0c                rtimer_arch_init
+                0x0000cb40                rtimer_arch_schedule
+                0x0000cb60                __vector_32
+ .text          0x0000cbba      0x468 contiki-avr-raven.a(frame802154.o)
+                0x0000cbba                frame802154_parse
+                0x0000ce3a                frame802154_create
+                0x0000cfe6                frame802154_hdrlen
+ .text          0x0000d022        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_mulsi3.o)
+ .text          0x0000d022        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text          0x0000d022        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text          0x0000d022        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+ .text          0x0000d022        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_clear_bss.o)
+ .text          0x0000d022      0x204 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+                0x0000d022                malloc
+                0x0000d176                free
+ .text          0x0000d226       0xc2 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o)
+                0x0000d2c2                rand_r
+                0x0000d2c8                rand
+                0x0000d2d2                srand
+ .text          0x0000d2e8        0xe /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy_P.o)
+                0x0000d2e8                strcpy_P
+ .text          0x0000d2f6       0x1a /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcmp.o)
+                0x0000d2f6                memcmp
+ .text          0x0000d310       0x12 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcpy.o)
+                0x0000d310                memcpy
+ .text          0x0000d322       0x24 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memmove.o)
+                0x0000d322                memmove
+ .text          0x0000d346        0xe /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memset.o)
+                0x0000d346                memset
+ .text          0x0000d354       0x16 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcat.o)
+                0x0000d354                strcat
+ .text          0x0000d36a       0x16 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strchr.o)
+                0x0000d36a                strchr
+ .text          0x0000d380       0x12 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+                0x0000d380                strcmp
+ .text          0x0000d392        0xe /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+                0x0000d392                strcpy
+ .text          0x0000d3a0       0x1c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strncmp.o)
+                0x0000d3a0                strncmp
+ .text          0x0000d3bc       0x38 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(eerd_block.o)
+                0x0000d3bc                __eerd_block
+ .text          0x0000d3f4        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+ .text          0x0000d3f4       0x2a /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf.o)
+                0x0000d3f4                printf
+ .text          0x0000d41e       0x4c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf_p.o)
+                0x0000d41e                printf_P
+ .text          0x0000d46a       0x6a /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(puts.o)
+                0x0000d46a                puts
+ .text          0x0000d4d4       0x48 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(sprintf.o)
+                0x0000d4d4                sprintf
+ .text          0x0000d51c       0x54 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                0x0000d51c                vsnprintf
+ .text          0x0000d570      0x3ba /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                0x0000d570                vfprintf
+ .text          0x0000d92a       0x16 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                0x0000d92a                strnlen_P
+ .text          0x0000d940       0x16 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                0x0000d940                strnlen
+ .text          0x0000d956       0x58 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                0x0000d956                fputc
+ .text          0x0000d9ae       0xbc /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000d9ae                __ultoa_invert
+ .text          0x0000da6a        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_divmodsi4.o)
+ .text          0x0000da6a        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_prologue.o)
+ .text          0x0000da6a        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_epilogue.o)
+                0x0000da6a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x0000da6a       0x3e /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_mulsi3.o)
+                0x0000da6a                __mulsi3
+ .text.libgcc   0x0000daa8       0x28 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodhi4.o)
+                0x0000daa8                __udivmodhi4
+ .text.libgcc   0x0000dad0       0x44 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodsi4.o)
+                0x0000dad0                __udivmodsi4
+ .text.libgcc   0x0000db14        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc   0x0000db14        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000db14       0x36 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_divmodsi4.o)
+                0x0000db14                __divmodsi4
+ .text.libgcc   0x0000db4a       0x38 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_prologue.o)
+                0x0000db4a                __prologue_saves__
+ .text.libgcc   0x0000db82       0x36 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_epilogue.o)
+                0x0000db82                __epilogue_restores__
+                0x0000dbb8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000dbb8        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+                0x0000dbb8                exit
+                0x0000dbb8                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000dbb8        0x4 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000dbbc                _etext = .
+
+.data           0x00800100      0x54c load address 0x0000dbbc
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+ .data          0x00800100      0x3f4 udp-server.co
+                0x008004e6                udp_process_receiver
+                0x008004f0                autostart_processes
+ .data          0x008004f4        0x0 contiki-avr-raven.a(list.o)
+ .data          0x008004f4       0x16 contiki-avr-raven.a(etimer.o)
+                0x00800500                etimer_process
+ .data          0x0080050a        0x0 contiki-avr-raven.a(uip6.o)
+ .data          0x0080050a       0x17 contiki-avr-raven.a(tcpip.o)
+                0x00800517                tcpip_process
+ .data          0x00800521        0x0 contiki-avr-raven.a(uip-split.o)
+ .data          0x00800521        0x0 contiki-avr-raven.a(uip-icmp6.o)
+ .data          0x00800521        0x0 contiki-avr-raven.a(uip-nd6.o)
+ .data          0x00800521        0x8 contiki-avr-raven.a(uip-packetqueue)
+ .data          0x00800529        0x0 contiki-avr-raven.a(uip-ds6.o)
+ .data          0x00800529       0x26 contiki-avr-raven.a(raven-lcd.o)
+                0x00800545                raven_lcd_process
+ .data          0x0080054f        0xc contiki-avr-raven.a(contiki-raven-m)
+ .data          0x0080055b        0x0 contiki-avr-raven.a(cfs-coffee.o)
+ .data          0x0080055b        0xf contiki-avr-raven.a(cfs-coffee-arch)
+ .data          0x0080056a        0x0 contiki-avr-raven.a(clock.o)
+ .data          0x0080056a       0x28 contiki-avr-raven.a(rs232.o)
+ .data          0x00800592        0x0 contiki-avr-raven.a(watchdog.o)
+ .data          0x00800592       0x2b contiki-avr-raven.a(rf230bb.o)
+                0x0080059f                rf230_process
+                0x008005a9                rf230_driver
+ .data          0x008005bd        0x0 contiki-avr-raven.a(halbb.o)
+ .data          0x008005bd        0x8 contiki-avr-raven.a(rimeaddr.o)
+                0x008005bd                rimeaddr_null
+ .data          0x008005c5        0x0 contiki-avr-raven.a(rimestats.o)
+ .data          0x008005c5       0x16 contiki-avr-raven.a(nullmac.o)
+                0x008005cd                nullmac_driver
+ .data          0x008005db       0x19 contiki-avr-raven.a(sicslowmac.o)
+                0x008005e6                sicslowmac_driver
+ .data          0x008005f4        0x0 contiki-avr-raven.a(process.o)
+ .data          0x008005f4        0x0 contiki-avr-raven.a(autostart.o)
+ .data          0x008005f4        0x0 contiki-avr-raven.a(memb.o)
+ .data          0x008005f4        0x0 contiki-avr-raven.a(timer.o)
+ .data          0x008005f4       0x19 contiki-avr-raven.a(ctimer.o)
+                0x00800603                ctimer_process
+ .data          0x0080060d        0x0 contiki-avr-raven.a(rtimer.o)
+ .data          0x0080060d        0x0 contiki-avr-raven.a(stimer.o)
+ .data          0x0080060d        0x0 contiki-avr-raven.a(random.o)
+ .data          0x0080060d        0x2 contiki-avr-raven.a(packetbuf.o)
+ .data          0x0080060f       0x10 contiki-avr-raven.a(queuebuf.o)
+ .data          0x0080061f       0x23 contiki-avr-raven.a(sicslowpan.o)
+                0x0080061f                unc_llconf
+                0x00800623                unc_ctxconf
+                0x00800627                unc_mxconf
+                0x0080062b                llprefix
+                0x00800638                sicslowpan_driver
+ .data          0x00800642        0x0 contiki-avr-raven.a(rtimer-arch.o)
+ .data          0x00800642        0x0 contiki-avr-raven.a(frame802154.o)
+ .data          0x00800642        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_mulsi3.o)
+ .data          0x00800642        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodhi4.o)
+ .data          0x00800642        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodsi4.o)
+ .data          0x00800642        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+ .data          0x00800642        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_clear_bss.o)
+ .data          0x00800642        0x6 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+                0x00800642                __malloc_margin
+                0x00800644                __malloc_heap_start
+                0x00800646                __malloc_heap_end
+ .data          0x00800648        0x4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy_P.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcmp.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcpy.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memmove.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memset.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcat.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strchr.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strncmp.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(eerd_block.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf_p.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(puts.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(sprintf.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_divmodsi4.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_prologue.o)
+ .data          0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080064c                . = ALIGN (0x2)
+                0x0080064c                _edata = .
+                0x0080064c                PROVIDE (__data_end, .)
+
+.bss            0x0080064c     0x2edd
+                0x0080064c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080064c        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+ .bss           0x0080064c      0x4d9 udp-server.co
+ .bss           0x00800b25        0x0 contiki-avr-raven.a(list.o)
+ .bss           0x00800b25        0x4 contiki-avr-raven.a(etimer.o)
+ .bss           0x00800b29        0xd contiki-avr-raven.a(uip6.o)
+                0x00800b29                uip_ext_bitmap
+                0x00800b2a                uip_ext_len
+                0x00800b2b                uip_ext_opt_offset
+ .bss           0x00800b36       0x15 contiki-avr-raven.a(tcpip.o)
+ .bss           0x00800b4b        0x0 contiki-avr-raven.a(uip-split.o)
+ .bss           0x00800b4b       0x10 contiki-avr-raven.a(uip-icmp6.o)
+ .bss           0x00800b5b       0x1d contiki-avr-raven.a(uip-nd6.o)
+ .bss           0x00800b78      0xa2e contiki-avr-raven.a(uip-packetqueue)
+ .bss           0x008015a6       0x21 contiki-avr-raven.a(uip-ds6.o)
+ .bss           0x008015c7       0x19 contiki-avr-raven.a(raven-lcd.o)
+ .bss           0x008015e0        0x0 contiki-avr-raven.a(contiki-raven-m)
+ .bss           0x008015e0       0x4c contiki-avr-raven.a(cfs-coffee.o)
+ .bss           0x0080162c        0x0 contiki-avr-raven.a(cfs-coffee-arch)
+ .bss           0x0080162c        0x3 contiki-avr-raven.a(clock.o)
+ .bss           0x0080162f       0x41 contiki-avr-raven.a(rs232.o)
+ .bss           0x00801670        0x2 contiki-avr-raven.a(watchdog.o)
+ .bss           0x00801672       0x87 contiki-avr-raven.a(rf230bb.o)
+ .bss           0x008016f9        0x2 contiki-avr-raven.a(halbb.o)
+ .bss           0x008016fb        0x0 contiki-avr-raven.a(rimeaddr.o)
+ .bss           0x008016fb        0x0 contiki-avr-raven.a(rimestats.o)
+ .bss           0x008016fb        0x0 contiki-avr-raven.a(nullmac.o)
+ .bss           0x008016fb        0x1 contiki-avr-raven.a(sicslowmac.o)
+ .bss           0x008016fc       0xb0 contiki-avr-raven.a(process.o)
+                0x008016fc                process_list
+                0x008016fe                process_current
+ .bss           0x008017ac        0x0 contiki-avr-raven.a(autostart.o)
+ .bss           0x008017ac        0x0 contiki-avr-raven.a(memb.o)
+ .bss           0x008017ac        0x0 contiki-avr-raven.a(timer.o)
+ .bss           0x008017ac        0x3 contiki-avr-raven.a(ctimer.o)
+ .bss           0x008017af        0x2 contiki-avr-raven.a(rtimer.o)
+ .bss           0x008017b1        0x0 contiki-avr-raven.a(stimer.o)
+ .bss           0x008017b1        0x0 contiki-avr-raven.a(random.o)
+ .bss           0x008017b1       0xb9 contiki-avr-raven.a(packetbuf.o)
+ .bss           0x0080186a      0x704 contiki-avr-raven.a(queuebuf.o)
+ .bss           0x00801f6e      0x51f contiki-avr-raven.a(sicslowpan.o)
+ .bss           0x0080248d        0x0 contiki-avr-raven.a(rtimer-arch.o)
+ .bss           0x0080248d        0x0 contiki-avr-raven.a(frame802154.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_mulsi3.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodhi4.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_udivmodsi4.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_exit.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_clear_bss.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy_P.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcmp.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcpy.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memmove.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memset.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcat.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strchr.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strncmp.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(eerd_block.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf_p.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(puts.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(sprintf.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_divmodsi4.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_prologue.o)
+ .bss           0x0080248d        0x0 /usr/lib/gcc/avr/4.3.2/avr51/libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080248d      0x647 contiki-avr-raven.a(uip6.o)
+                0x0080248d                uip_len
+                0x0080248f                uip_sappdata
+                0x00802491                uip_acc32
+                0x00802495                uip_lladdr
+                0x0080249d                uip_aligned_buf
+                0x0080299d                uip_flags
+                0x0080299e                uip_next_hdr
+                0x008029a0                uip_udp_conn
+                0x008029a2                uip_appdata
+                0x008029a4                uip_conn
+                0x008029a6                uip_conns
+                0x008029d2                uip_icmp6_conns
+                0x008029d6                uip_listenports
+                0x008029d8                uip_slen
+                0x008029da                uip_udp_conns
+ COMMON         0x00802ad4        0x2 contiki-avr-raven.a(tcpip.o)
+                0x00802ad4                tcpip_event
+                0x00802ad5                tcpip_icmp6_event
+ COMMON         0x00802ad6      0x8f3 contiki-avr-raven.a(uip-ds6.o)
+                0x00802ad6                uip_ds6_if
+                0x00802bc1                uip_ds6_prefix_list
+                0x00802c2d                uip_ds6_timer_periodic
+                0x00802c35                uip_ds6_defrt_list
+                0x00802c69                uip_ds6_nbr_cache
+                0x00803029                uip_ds6_timer_rs
+                0x00803031                uip_ds6_routing_table
+ COMMON         0x008033c9       0x11 contiki-avr-raven.a(raven-lcd.o)
+                0x008033c9                dest_addr
+                0x008033d9                serial_char_received
+ COMMON         0x008033da        0x1 contiki-avr-raven.a(contiki-raven-m)
+                0x008033da                eeprom_channel
+ COMMON         0x008033db        0x8 contiki-avr-raven.a(clock.o)
+                0x008033db                sleepseconds
+                0x008033df                seconds
+ COMMON         0x008033e3       0x92 contiki-avr-raven.a(rf230bb.o)
+                0x008033e3                rf230_last_correlation
+                0x008033e4                rf230_last_rssi
+                0x008033e5                rf230_time_of_departure
+                0x008033e7                rf230_calibrate
+                0x008033e8                rf230_calibrated
+                0x008033e9                rf230_authority_level_of_sender
+                0x008033eb                rf230_time_of_arrival
+                0x008033ed                rxframe_tail
+                0x008033ee                rxframe_head
+                0x008033ef                rxframe
+                0x00803471                osccal_original
+                0x00803472                RF230_sleeping
+                0x00803473                RF230_receive_on
+                0x00803474                osccal_calibrated
+ COMMON         0x00803475        0x8 contiki-avr-raven.a(rimeaddr.o)
+                0x00803475                rimeaddr_node_addr
+ COMMON         0x0080347d       0x48 contiki-avr-raven.a(rimestats.o)
+                0x0080347d                rimestats
+ COMMON         0x008034c5       0x50 contiki-avr-raven.a(packetbuf.o)
+                0x008034c5                packetbuf_addrs
+                0x008034e5                packetbuf_attrs
+ COMMON         0x00803515        0xa contiki-avr-raven.a(sicslowpan.o)
+                0x00803515                sicslowpan_mac
+                0x00803517                frag_sender
+ COMMON         0x0080351f        0x4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+                0x0080351f                __brkval
+                0x00803521                __flp
+ COMMON         0x00803523        0x6 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+                0x00803523                __iob
+                0x00803529                PROVIDE (__bss_end, .)
+                0x0000dbbc                __data_load_start = LOADADDR (.data)
+                0x0000e108                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00803529        0x0
+                0x00803529                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00803529                PROVIDE (__noinit_end, .)
+                0x00803529                _end = .
+                0x00803529                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0xa
+ *(.eeprom*)
+ .eeprom        0x00810000        0xa contiki-avr-raven.a(contiki-raven-m)
+                0x00810000                mac_address
+                0x00810008                rf_channel
+                0x0081000a                __eeprom_end = .
+
+.fuse           0x00820000        0x3
+ *(.fuse)
+ .fuse          0x00820000        0x3 contiki-avr-raven.a(contiki-raven-m)
+                0x00820000                __fuse
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature      0x00840000        0x3
+ *(.signature*)
+ .signature     0x00840000        0x3 contiki-avr-raven.a(contiki-raven-m)
+                0x00840000                __signature
+
+.stab           0x00000000     0x3468
+ *(.stab)
+ .stab          0x00000000      0x750 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+ .stab          0x00000750      0x6e4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(malloc.o)
+                                0x6f0 (size before relaxing)
+ .stab          0x00000e34      0x2dc /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(rand.o)
+                                0x33c (size before relaxing)
+ .stab          0x00001110       0x6c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy_P.o)
+                                 0x78 (size before relaxing)
+ .stab          0x0000117c       0xb4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcmp.o)
+                                 0xc0 (size before relaxing)
+ .stab          0x00001230       0x84 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memcpy.o)
+                                 0x90 (size before relaxing)
+ .stab          0x000012b4       0xe4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memmove.o)
+                                 0xf0 (size before relaxing)
+ .stab          0x00001398       0x6c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(memset.o)
+                                 0x78 (size before relaxing)
+ .stab          0x00001404       0x9c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcat.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x000014a0       0x9c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strchr.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x0000153c       0x84 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcmp.o)
+                                 0x90 (size before relaxing)
+ .stab          0x000015c0       0x6c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strcpy.o)
+                                 0x78 (size before relaxing)
+ .stab          0x0000162c       0xc0 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strncmp.o)
+                                 0xcc (size before relaxing)
+ .stab          0x000016ec      0x21c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(eerd_block.o)
+                                0x3a8 (size before relaxing)
+ .stab          0x00001908      0x180 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(iob.o)
+                                0x30c (size before relaxing)
+ .stab          0x00001a88      0x18c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf.o)
+                                0x36c (size before relaxing)
+ .stab          0x00001c14      0x1a4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(printf_p.o)
+                                0x384 (size before relaxing)
+ .stab          0x00001db8      0x1d4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(puts.o)
+                                0x3b4 (size before relaxing)
+ .stab          0x00001f8c      0x1f8 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(sprintf.o)
+                                0x3d8 (size before relaxing)
+ .stab          0x00002184      0x210 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                                0x3f0 (size before relaxing)
+ .stab          0x00002394      0x948 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                0xb58 (size before relaxing)
+ .stab          0x00002cdc       0x9c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00002d78       0x9c /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00002e14      0x1d4 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                                0x3b4 (size before relaxing)
+ .stab          0x00002fe8      0x480 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                                0x48c (size before relaxing)
+
+.stabstr        0x00000000     0x1328
+ *(.stabstr)
+ .stabstr       0x00000000     0x1328 /usr/lib/gcc/avr/4.3.2/../../../avr/lib/avr51/crtm1284p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x470
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 udp-server.co
+ .debug_aranges
+                0x00000020       0x20 contiki-avr-raven.a(list.o)
+ .debug_aranges
+                0x00000040       0x20 contiki-avr-raven.a(etimer.o)
+ .debug_aranges
+                0x00000060       0x20 contiki-avr-raven.a(uip6.o)
+ .debug_aranges
+                0x00000080       0x20 contiki-avr-raven.a(tcpip.o)
+ .debug_aranges
+                0x000000a0       0x20 contiki-avr-raven.a(uip-split.o)
+ .debug_aranges
+                0x000000c0       0x20 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_aranges
+                0x000000e0       0x20 contiki-avr-raven.a(uip-nd6.o)
+ .debug_aranges
+                0x00000100       0x20 contiki-avr-raven.a(uip-packetqueue)
+ .debug_aranges
+                0x00000120       0x20 contiki-avr-raven.a(uip-ds6.o)
+ .debug_aranges
+                0x00000140       0x20 contiki-avr-raven.a(raven-lcd.o)
+ .debug_aranges
+                0x00000160       0x20 contiki-avr-raven.a(contiki-raven-m)
+ .debug_aranges
+                0x00000180       0x20 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_aranges
+                0x000001a0       0x30 contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_aranges
+                0x000001d0       0x20 contiki-avr-raven.a(clock.o)
+ .debug_aranges
+                0x000001f0       0x20 contiki-avr-raven.a(rs232.o)
+ .debug_aranges
+                0x00000210       0x20 contiki-avr-raven.a(watchdog.o)
+ .debug_aranges
+                0x00000230       0x20 contiki-avr-raven.a(rf230bb.o)
+ .debug_aranges
+                0x00000250       0x20 contiki-avr-raven.a(halbb.o)
+ .debug_aranges
+                0x00000270       0x20 contiki-avr-raven.a(rimeaddr.o)
+ .debug_aranges
+                0x00000290       0x20 contiki-avr-raven.a(nullmac.o)
+ .debug_aranges
+                0x000002b0       0x20 contiki-avr-raven.a(sicslowmac.o)
+ .debug_aranges
+                0x000002d0       0x20 contiki-avr-raven.a(process.o)
+ .debug_aranges
+                0x000002f0       0x20 contiki-avr-raven.a(autostart.o)
+ .debug_aranges
+                0x00000310       0x20 contiki-avr-raven.a(memb.o)
+ .debug_aranges
+                0x00000330       0x20 contiki-avr-raven.a(timer.o)
+ .debug_aranges
+                0x00000350       0x20 contiki-avr-raven.a(ctimer.o)
+ .debug_aranges
+                0x00000370       0x20 contiki-avr-raven.a(rtimer.o)
+ .debug_aranges
+                0x00000390       0x20 contiki-avr-raven.a(stimer.o)
+ .debug_aranges
+                0x000003b0       0x20 contiki-avr-raven.a(random.o)
+ .debug_aranges
+                0x000003d0       0x20 contiki-avr-raven.a(packetbuf.o)
+ .debug_aranges
+                0x000003f0       0x20 contiki-avr-raven.a(queuebuf.o)
+ .debug_aranges
+                0x00000410       0x20 contiki-avr-raven.a(sicslowpan.o)
+ .debug_aranges
+                0x00000430       0x20 contiki-avr-raven.a(rtimer-arch.o)
+ .debug_aranges
+                0x00000450       0x20 contiki-avr-raven.a(frame802154.o)
+
+.debug_pubnames
+                0x00000000     0x21ef
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x593 udp-server.co
+ .debug_pubnames
+                0x00000593       0xc3 contiki-avr-raven.a(list.o)
+ .debug_pubnames
+                0x00000656      0x109 contiki-avr-raven.a(etimer.o)
+ .debug_pubnames
+                0x0000075f      0x228 contiki-avr-raven.a(uip6.o)
+ .debug_pubnames
+                0x00000987      0x165 contiki-avr-raven.a(tcpip.o)
+ .debug_pubnames
+                0x00000aec       0x27 contiki-avr-raven.a(uip-split.o)
+ .debug_pubnames
+                0x00000b13       0x61 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_pubnames
+                0x00000b74       0x7d contiki-avr-raven.a(uip-nd6.o)
+ .debug_pubnames
+                0x00000bf1       0xaf contiki-avr-raven.a(uip-packetqueue)
+ .debug_pubnames
+                0x00000ca0      0x3eb contiki-avr-raven.a(uip-ds6.o)
+ .debug_pubnames
+                0x0000108b       0xb1 contiki-avr-raven.a(raven-lcd.o)
+ .debug_pubnames
+                0x0000113c       0x98 contiki-avr-raven.a(contiki-raven-m)
+ .debug_pubnames
+                0x000011d4      0x100 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_pubnames
+                0x000012d4       0xab contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_pubnames
+                0x0000137f       0xbd contiki-avr-raven.a(clock.o)
+ .debug_pubnames
+                0x0000143c       0xff contiki-avr-raven.a(rs232.o)
+ .debug_pubnames
+                0x0000153b       0x73 contiki-avr-raven.a(watchdog.o)
+ .debug_pubnames
+                0x000015ae      0x297 contiki-avr-raven.a(rf230bb.o)
+ .debug_pubnames
+                0x00001845       0xc6 contiki-avr-raven.a(halbb.o)
+ .debug_pubnames
+                0x0000190b       0x79 contiki-avr-raven.a(rimeaddr.o)
+ .debug_pubnames
+                0x00001984       0x20 contiki-avr-raven.a(rimestats.o)
+ .debug_pubnames
+                0x000019a4       0x25 contiki-avr-raven.a(nullmac.o)
+ .debug_pubnames
+                0x000019c9       0x28 contiki-avr-raven.a(sicslowmac.o)
+ .debug_pubnames
+                0x000019f1       0xf7 contiki-avr-raven.a(process.o)
+ .debug_pubnames
+                0x00001ae8       0x39 contiki-avr-raven.a(autostart.o)
+ .debug_pubnames
+                0x00001b21       0x4d contiki-avr-raven.a(memb.o)
+ .debug_pubnames
+                0x00001b6e       0x68 contiki-avr-raven.a(timer.o)
+ .debug_pubnames
+                0x00001bd6       0x8b contiki-avr-raven.a(ctimer.o)
+ .debug_pubnames
+                0x00001c61       0x45 contiki-avr-raven.a(rtimer.o)
+ .debug_pubnames
+                0x00001ca6       0x80 contiki-avr-raven.a(stimer.o)
+ .debug_pubnames
+                0x00001d26       0x32 contiki-avr-raven.a(random.o)
+ .debug_pubnames
+                0x00001d58      0x280 contiki-avr-raven.a(packetbuf.o)
+ .debug_pubnames
+                0x00001fd8       0xd7 contiki-avr-raven.a(queuebuf.o)
+ .debug_pubnames
+                0x000020af       0x9a contiki-avr-raven.a(sicslowpan.o)
+ .debug_pubnames
+                0x00002149       0x50 contiki-avr-raven.a(rtimer-arch.o)
+ .debug_pubnames
+                0x00002199       0x56 contiki-avr-raven.a(frame802154.o)
+
+.debug_info     0x00000000    0x10539
+ *(.debug_info)
+ .debug_info    0x00000000     0x24be udp-server.co
+ .debug_info    0x000024be      0x479 contiki-avr-raven.a(list.o)
+ .debug_info    0x00002937      0x4ed contiki-avr-raven.a(etimer.o)
+ .debug_info    0x00002e24     0x117a contiki-avr-raven.a(uip6.o)
+ .debug_info    0x00003f9e     0x1241 contiki-avr-raven.a(tcpip.o)
+ .debug_info    0x000051df      0x2e8 contiki-avr-raven.a(uip-split.o)
+ .debug_info    0x000054c7      0x557 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_info    0x00005a1e      0xc02 contiki-avr-raven.a(uip-nd6.o)
+ .debug_info    0x00006620      0x4c5 contiki-avr-raven.a(uip-packetqueue)
+ .debug_info    0x00006ae5     0x12a9 contiki-avr-raven.a(uip-ds6.o)
+ .debug_info    0x00007d8e      0xa7c contiki-avr-raven.a(raven-lcd.o)
+ .debug_info    0x0000880a      0x910 contiki-avr-raven.a(contiki-raven-m)
+ .debug_info    0x0000911a     0x1059 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_info    0x0000a173      0x68f contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_info    0x0000a802      0x297 contiki-avr-raven.a(clock.o)
+ .debug_info    0x0000aa99      0x5d6 contiki-avr-raven.a(rs232.o)
+ .debug_info    0x0000b06f       0xed contiki-avr-raven.a(watchdog.o)
+ .debug_info    0x0000b15c     0x1150 contiki-avr-raven.a(rf230bb.o)
+ .debug_info    0x0000c2ac      0x4b5 contiki-avr-raven.a(halbb.o)
+ .debug_info    0x0000c761      0x1bf contiki-avr-raven.a(rimeaddr.o)
+ .debug_info    0x0000c920      0x146 contiki-avr-raven.a(rimestats.o)
+ .debug_info    0x0000ca66      0x2f9 contiki-avr-raven.a(nullmac.o)
+ .debug_info    0x0000cd5f      0x7c2 contiki-avr-raven.a(sicslowmac.o)
+ .debug_info    0x0000d521      0x55f contiki-avr-raven.a(process.o)
+ .debug_info    0x0000da80      0x1af contiki-avr-raven.a(autostart.o)
+ .debug_info    0x0000dc2f      0x1af contiki-avr-raven.a(memb.o)
+ .debug_info    0x0000ddde      0x17b contiki-avr-raven.a(timer.o)
+ .debug_info    0x0000df59      0x459 contiki-avr-raven.a(ctimer.o)
+ .debug_info    0x0000e3b2      0x1b3 contiki-avr-raven.a(rtimer.o)
+ .debug_info    0x0000e565      0x18f contiki-avr-raven.a(stimer.o)
+ .debug_info    0x0000e6f4       0xa1 contiki-avr-raven.a(random.o)
+ .debug_info    0x0000e795      0x6dd contiki-avr-raven.a(packetbuf.o)
+ .debug_info    0x0000ee72      0x50f contiki-avr-raven.a(queuebuf.o)
+ .debug_info    0x0000f381      0xc3f contiki-avr-raven.a(sicslowpan.o)
+ .debug_info    0x0000ffc0       0xef contiki-avr-raven.a(rtimer-arch.o)
+ .debug_info    0x000100af      0x48a contiki-avr-raven.a(frame802154.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x462e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x45c udp-server.co
+ .debug_abbrev  0x0000045c      0x209 contiki-avr-raven.a(list.o)
+ .debug_abbrev  0x00000665      0x215 contiki-avr-raven.a(etimer.o)
+ .debug_abbrev  0x0000087a      0x346 contiki-avr-raven.a(uip6.o)
+ .debug_abbrev  0x00000bc0      0x403 contiki-avr-raven.a(tcpip.o)
+ .debug_abbrev  0x00000fc3      0x107 contiki-avr-raven.a(uip-split.o)
+ .debug_abbrev  0x000010ca      0x154 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_abbrev  0x0000121e      0x253 contiki-avr-raven.a(uip-nd6.o)
+ .debug_abbrev  0x00001471      0x1ad contiki-avr-raven.a(uip-packetqueue)
+ .debug_abbrev  0x0000161e      0x339 contiki-avr-raven.a(uip-ds6.o)
+ .debug_abbrev  0x00001957      0x331 contiki-avr-raven.a(raven-lcd.o)
+ .debug_abbrev  0x00001c88      0x2e7 contiki-avr-raven.a(contiki-raven-m)
+ .debug_abbrev  0x00001f6f      0x2a3 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_abbrev  0x00002212      0x17e contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_abbrev  0x00002390      0x174 contiki-avr-raven.a(clock.o)
+ .debug_abbrev  0x00002504      0x2aa contiki-avr-raven.a(rs232.o)
+ .debug_abbrev  0x000027ae       0x92 contiki-avr-raven.a(watchdog.o)
+ .debug_abbrev  0x00002840      0x391 contiki-avr-raven.a(rf230bb.o)
+ .debug_abbrev  0x00002bd1      0x202 contiki-avr-raven.a(halbb.o)
+ .debug_abbrev  0x00002dd3      0x164 contiki-avr-raven.a(rimeaddr.o)
+ .debug_abbrev  0x00002f37       0x5d contiki-avr-raven.a(rimestats.o)
+ .debug_abbrev  0x00002f94      0x15a contiki-avr-raven.a(nullmac.o)
+ .debug_abbrev  0x000030ee      0x244 contiki-avr-raven.a(sicslowmac.o)
+ .debug_abbrev  0x00003332      0x300 contiki-avr-raven.a(process.o)
+ .debug_abbrev  0x00003632       0xf3 contiki-avr-raven.a(autostart.o)
+ .debug_abbrev  0x00003725       0xe0 contiki-avr-raven.a(memb.o)
+ .debug_abbrev  0x00003805       0xce contiki-avr-raven.a(timer.o)
+ .debug_abbrev  0x000038d3      0x1c0 contiki-avr-raven.a(ctimer.o)
+ .debug_abbrev  0x00003a93      0x126 contiki-avr-raven.a(rtimer.o)
+ .debug_abbrev  0x00003bb9       0xb4 contiki-avr-raven.a(stimer.o)
+ .debug_abbrev  0x00003c6d       0x65 contiki-avr-raven.a(random.o)
+ .debug_abbrev  0x00003cd2      0x263 contiki-avr-raven.a(packetbuf.o)
+ .debug_abbrev  0x00003f35      0x1a5 contiki-avr-raven.a(queuebuf.o)
+ .debug_abbrev  0x000040da      0x332 contiki-avr-raven.a(sicslowpan.o)
+ .debug_abbrev  0x0000440c       0x81 contiki-avr-raven.a(rtimer-arch.o)
+ .debug_abbrev  0x0000448d      0x1a1 contiki-avr-raven.a(frame802154.o)
+
+.debug_line     0x00000000     0xb17d
+ *(.debug_line)
+ .debug_line    0x00000000     0x1ccc udp-server.co
+ .debug_line    0x00001ccc      0x31e contiki-avr-raven.a(list.o)
+ .debug_line    0x00001fea      0x383 contiki-avr-raven.a(etimer.o)
+ .debug_line    0x0000236d     0x121a contiki-avr-raven.a(uip6.o)
+ .debug_line    0x00003587      0x719 contiki-avr-raven.a(tcpip.o)
+ .debug_line    0x00003ca0      0x170 contiki-avr-raven.a(uip-split.o)
+ .debug_line    0x00003e10      0x315 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_line    0x00004125      0x883 contiki-avr-raven.a(uip-nd6.o)
+ .debug_line    0x000049a8      0x23d contiki-avr-raven.a(uip-packetqueue)
+ .debug_line    0x00004be5      0xb37 contiki-avr-raven.a(uip-ds6.o)
+ .debug_line    0x0000571c      0x4a0 contiki-avr-raven.a(raven-lcd.o)
+ .debug_line    0x00005bbc      0x472 contiki-avr-raven.a(contiki-raven-m)
+ .debug_line    0x0000602e      0xa90 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_line    0x00006abe      0x84d contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_line    0x0000730b      0x21b contiki-avr-raven.a(clock.o)
+ .debug_line    0x00007526      0x383 contiki-avr-raven.a(rs232.o)
+ .debug_line    0x000078a9       0xee contiki-avr-raven.a(watchdog.o)
+ .debug_line    0x00007997      0xb60 contiki-avr-raven.a(rf230bb.o)
+ .debug_line    0x000084f7      0x3c2 contiki-avr-raven.a(halbb.o)
+ .debug_line    0x000088b9      0x113 contiki-avr-raven.a(rimeaddr.o)
+ .debug_line    0x000089cc       0x70 contiki-avr-raven.a(rimestats.o)
+ .debug_line    0x00008a3c      0x119 contiki-avr-raven.a(nullmac.o)
+ .debug_line    0x00008b55      0x31a contiki-avr-raven.a(sicslowmac.o)
+ .debug_line    0x00008e6f      0x3de contiki-avr-raven.a(process.o)
+ .debug_line    0x0000924d       0xd2 contiki-avr-raven.a(autostart.o)
+ .debug_line    0x0000931f      0x125 contiki-avr-raven.a(memb.o)
+ .debug_line    0x00009444      0x114 contiki-avr-raven.a(timer.o)
+ .debug_line    0x00009558      0x2ec contiki-avr-raven.a(ctimer.o)
+ .debug_line    0x00009844       0xf9 contiki-avr-raven.a(rtimer.o)
+ .debug_line    0x0000993d      0x105 contiki-avr-raven.a(stimer.o)
+ .debug_line    0x00009a42       0x8b contiki-avr-raven.a(random.o)
+ .debug_line    0x00009acd      0x3f5 contiki-avr-raven.a(packetbuf.o)
+ .debug_line    0x00009ec2      0x282 contiki-avr-raven.a(queuebuf.o)
+ .debug_line    0x0000a144      0xb3a contiki-avr-raven.a(sicslowpan.o)
+ .debug_line    0x0000ac7e      0x175 contiki-avr-raven.a(rtimer-arch.o)
+ .debug_line    0x0000adf3      0x38a contiki-avr-raven.a(frame802154.o)
+
+.debug_frame    0x00000000     0x19b0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x380 udp-server.co
+ .debug_frame   0x00000380       0xd0 contiki-avr-raven.a(list.o)
+ .debug_frame   0x00000450       0xf0 contiki-avr-raven.a(etimer.o)
+ .debug_frame   0x00000540      0x130 contiki-avr-raven.a(uip6.o)
+ .debug_frame   0x00000670      0x130 contiki-avr-raven.a(tcpip.o)
+ .debug_frame   0x000007a0       0x20 contiki-avr-raven.a(uip-split.o)
+ .debug_frame   0x000007c0       0x40 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_frame   0x00000800       0x70 contiki-avr-raven.a(uip-nd6.o)
+ .debug_frame   0x00000870       0x80 contiki-avr-raven.a(uip-packetqueue)
+ .debug_frame   0x000008f0      0x250 contiki-avr-raven.a(uip-ds6.o)
+ .debug_frame   0x00000b40       0x80 contiki-avr-raven.a(raven-lcd.o)
+ .debug_frame   0x00000bc0       0x50 contiki-avr-raven.a(contiki-raven-m)
+ .debug_frame   0x00000c10      0x140 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_frame   0x00000d50       0x80 contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_frame   0x00000dd0       0xa0 contiki-avr-raven.a(clock.o)
+ .debug_frame   0x00000e70       0xe0 contiki-avr-raven.a(rs232.o)
+ .debug_frame   0x00000f50       0x60 contiki-avr-raven.a(watchdog.o)
+ .debug_frame   0x00000fb0      0x1d0 contiki-avr-raven.a(rf230bb.o)
+ .debug_frame   0x00001180       0xa0 contiki-avr-raven.a(halbb.o)
+ .debug_frame   0x00001220       0x40 contiki-avr-raven.a(rimeaddr.o)
+ .debug_frame   0x00001260       0x70 contiki-avr-raven.a(nullmac.o)
+ .debug_frame   0x000012d0       0x70 contiki-avr-raven.a(sicslowmac.o)
+ .debug_frame   0x00001340       0xd0 contiki-avr-raven.a(process.o)
+ .debug_frame   0x00001410       0x30 contiki-avr-raven.a(autostart.o)
+ .debug_frame   0x00001440       0x50 contiki-avr-raven.a(memb.o)
+ .debug_frame   0x00001490       0x60 contiki-avr-raven.a(timer.o)
+ .debug_frame   0x000014f0       0x80 contiki-avr-raven.a(ctimer.o)
+ .debug_frame   0x00001570       0x40 contiki-avr-raven.a(rtimer.o)
+ .debug_frame   0x000015b0       0x70 contiki-avr-raven.a(stimer.o)
+ .debug_frame   0x00001620       0x30 contiki-avr-raven.a(random.o)
+ .debug_frame   0x00001650      0x1a0 contiki-avr-raven.a(packetbuf.o)
+ .debug_frame   0x000017f0       0xa0 contiki-avr-raven.a(queuebuf.o)
+ .debug_frame   0x00001890       0x90 contiki-avr-raven.a(sicslowpan.o)
+ .debug_frame   0x00001920       0x40 contiki-avr-raven.a(rtimer-arch.o)
+ .debug_frame   0x00001960       0x50 contiki-avr-raven.a(frame802154.o)
+
+.debug_str      0x00000000     0x3e07
+ *(.debug_str)
+ .debug_str     0x00000000      0xaa4 udp-server.co
+                                0xba6 (size before relaxing)
+ .debug_str     0x00000aa4       0xa8 contiki-avr-raven.a(list.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x00000b4c      0x143 contiki-avr-raven.a(etimer.o)
+                                0x2a0 (size before relaxing)
+ .debug_str     0x00000c8f      0x4c3 contiki-avr-raven.a(uip6.o)
+                                0x7dc (size before relaxing)
+ .debug_str     0x00001152      0x2ef contiki-avr-raven.a(tcpip.o)
+                                0x7ff (size before relaxing)
+ .debug_str     0x00001441       0x3d contiki-avr-raven.a(uip-split.o)
+                                0x1d2 (size before relaxing)
+ .debug_str     0x0000147e       0x7f contiki-avr-raven.a(uip-icmp6.o)
+                                0x367 (size before relaxing)
+ .debug_str     0x000014fd      0x1e4 contiki-avr-raven.a(uip-nd6.o)
+                                0x659 (size before relaxing)
+ .debug_str     0x000016e1       0xf1 contiki-avr-raven.a(uip-packetqueue)
+                                0x2c6 (size before relaxing)
+ .debug_str     0x000017d2      0x3ee contiki-avr-raven.a(uip-ds6.o)
+                                0x8c5 (size before relaxing)
+ .debug_str     0x00001bc0      0x161 contiki-avr-raven.a(raven-lcd.o)
+                                0x58e (size before relaxing)
+ .debug_str     0x00001d21      0x1c0 contiki-avr-raven.a(contiki-raven-m)
+                                0x3dc (size before relaxing)
+ .debug_str     0x00001ee1      0x378 contiki-avr-raven.a(cfs-coffee.o)
+                                0x4b3 (size before relaxing)
+ .debug_str     0x00002259       0xe1 contiki-avr-raven.a(cfs-coffee-arch)
+                                0x1df (size before relaxing)
+ .debug_str     0x0000233a       0xaf contiki-avr-raven.a(clock.o)
+                                0x199 (size before relaxing)
+ .debug_str     0x000023e9      0x18c contiki-avr-raven.a(rs232.o)
+                                0x278 (size before relaxing)
+ .debug_str     0x00002575       0x70 contiki-avr-raven.a(watchdog.o)
+                                0x112 (size before relaxing)
+ .debug_str     0x000025e5      0x95d contiki-avr-raven.a(rf230bb.o)
+                                0xbf2 (size before relaxing)
+ .debug_str     0x00002f42      0x125 contiki-avr-raven.a(halbb.o)
+                                0x245 (size before relaxing)
+ .debug_str     0x00003067       0x7e contiki-avr-raven.a(rimeaddr.o)
+                                0x148 (size before relaxing)
+ .debug_str     0x000030e5       0x20 contiki-avr-raven.a(rimestats.o)
+                                0x100 (size before relaxing)
+ .debug_str     0x00003105       0x37 contiki-avr-raven.a(nullmac.o)
+                                0x196 (size before relaxing)
+ .debug_str     0x0000313c      0x213 contiki-avr-raven.a(sicslowmac.o)
+                                0x705 (size before relaxing)
+ .debug_str     0x0000334f      0x14d contiki-avr-raven.a(process.o)
+                                0x281 (size before relaxing)
+ .debug_str     0x0000349c       0x3a contiki-avr-raven.a(autostart.o)
+                                0x14b (size before relaxing)
+ .debug_str     0x000034d6       0x46 contiki-avr-raven.a(memb.o)
+                                0x110 (size before relaxing)
+ .debug_str     0x0000351c       0x17 contiki-avr-raven.a(timer.o)
+                                0x135 (size before relaxing)
+ .debug_str     0x00003533       0xb9 contiki-avr-raven.a(ctimer.o)
+                                0x234 (size before relaxing)
+ .debug_str     0x000035ec       0xb3 contiki-avr-raven.a(rtimer.o)
+                                0x18d (size before relaxing)
+ .debug_str     0x0000369f       0x6e contiki-avr-raven.a(stimer.o)
+                                0x139 (size before relaxing)
+ .debug_str     0x0000370d       0x35 contiki-avr-raven.a(random.o)
+                                 0xea (size before relaxing)
+ .debug_str     0x00003742      0x24d contiki-avr-raven.a(packetbuf.o)
+                                0x63c (size before relaxing)
+ .debug_str     0x0000398f      0x108 contiki-avr-raven.a(queuebuf.o)
+                                0x534 (size before relaxing)
+ .debug_str     0x00003a97      0x25e contiki-avr-raven.a(sicslowpan.o)
+                                0x831 (size before relaxing)
+ .debug_str     0x00003cf5       0x50 contiki-avr-raven.a(rtimer-arch.o)
+                                0x126 (size before relaxing)
+ .debug_str     0x00003d45       0xc2 contiki-avr-raven.a(frame802154.o)
+                                0x309 (size before relaxing)
+
+.debug_loc      0x00000000     0x8dcd
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x23d5 udp-server.co
+ .debug_loc     0x000023d5      0x4d0 contiki-avr-raven.a(list.o)
+ .debug_loc     0x000028a5      0x3ce contiki-avr-raven.a(etimer.o)
+ .debug_loc     0x00002c73      0x649 contiki-avr-raven.a(uip6.o)
+ .debug_loc     0x000032bc      0x63d contiki-avr-raven.a(tcpip.o)
+ .debug_loc     0x000038f9      0x121 contiki-avr-raven.a(uip-icmp6.o)
+ .debug_loc     0x00003a1a      0x189 contiki-avr-raven.a(uip-nd6.o)
+ .debug_loc     0x00003ba3      0x118 contiki-avr-raven.a(uip-packetqueue)
+ .debug_loc     0x00003cbb      0xd14 contiki-avr-raven.a(uip-ds6.o)
+ .debug_loc     0x000049cf      0x29a contiki-avr-raven.a(raven-lcd.o)
+ .debug_loc     0x00004c69       0xa3 contiki-avr-raven.a(contiki-raven-m)
+ .debug_loc     0x00004d0c      0xb4c contiki-avr-raven.a(cfs-coffee.o)
+ .debug_loc     0x00005858     0x1098 contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_loc     0x000068f0       0x97 contiki-avr-raven.a(clock.o)
+ .debug_loc     0x00006987      0x163 contiki-avr-raven.a(rs232.o)
+ .debug_loc     0x00006aea      0x706 contiki-avr-raven.a(rf230bb.o)
+ .debug_loc     0x000071f0      0x2ac contiki-avr-raven.a(halbb.o)
+ .debug_loc     0x0000749c       0x78 contiki-avr-raven.a(rimeaddr.o)
+ .debug_loc     0x00007514       0x48 contiki-avr-raven.a(nullmac.o)
+ .debug_loc     0x0000755c      0x106 contiki-avr-raven.a(sicslowmac.o)
+ .debug_loc     0x00007662      0x34c contiki-avr-raven.a(process.o)
+ .debug_loc     0x000079ae       0x30 contiki-avr-raven.a(autostart.o)
+ .debug_loc     0x000079de       0xf0 contiki-avr-raven.a(memb.o)
+ .debug_loc     0x00007ace       0xd0 contiki-avr-raven.a(timer.o)
+ .debug_loc     0x00007b9e      0x2e1 contiki-avr-raven.a(ctimer.o)
+ .debug_loc     0x00007e7f       0xd8 contiki-avr-raven.a(rtimer.o)
+ .debug_loc     0x00007f57       0xfe contiki-avr-raven.a(stimer.o)
+ .debug_loc     0x00008055       0x18 contiki-avr-raven.a(random.o)
+ .debug_loc     0x0000806d      0x2bc contiki-avr-raven.a(packetbuf.o)
+ .debug_loc     0x00008329      0x173 contiki-avr-raven.a(queuebuf.o)
+ .debug_loc     0x0000849c      0x6ce contiki-avr-raven.a(sicslowpan.o)
+ .debug_loc     0x00008b6a       0x18 contiki-avr-raven.a(rtimer-arch.o)
+ .debug_loc     0x00008b82      0x24b contiki-avr-raven.a(frame802154.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(udp-server.avr-raven elf32-avr)
+LOAD linker stubs
+
+.coffeefiles    0x00010000      0x400
+ .coffeefiles   0x00010000      0x400 udp-server.co
+                0x00010000                data_config_xml
+
+.bootloader     0x0001f800      0x244
+ .bootloader    0x0001f800      0x244 contiki-avr-raven.a(cfs-coffee-arch)
+                0x0001f800                avr_flash_write
+                0x0001fa32                avr_flash_erase
+
+.debug_ranges   0x00000000      0x338
+ .debug_ranges  0x00000000       0x38 udp-server.co
+ .debug_ranges  0x00000038       0x28 contiki-avr-raven.a(tcpip.o)
+ .debug_ranges  0x00000060       0x48 contiki-avr-raven.a(raven-lcd.o)
+ .debug_ranges  0x000000a8       0xc0 contiki-avr-raven.a(cfs-coffee.o)
+ .debug_ranges  0x00000168       0x48 contiki-avr-raven.a(cfs-coffee-arch)
+ .debug_ranges  0x000001b0       0x18 contiki-avr-raven.a(rs232.o)
+ .debug_ranges  0x000001c8       0x60 contiki-avr-raven.a(halbb.o)
+ .debug_ranges  0x00000228       0x30 contiki-avr-raven.a(process.o)
+ .debug_ranges  0x00000258       0xe0 contiki-avr-raven.a(sicslowpan.o)

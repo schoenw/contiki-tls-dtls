@@ -1,0 +1,29 @@
+diff --git a/cpu/native/net/tapdev6.c b/cpu/native/net/tapdev6.c
+index b63f1ac..d46cce1 100644
+--- a/cpu/native/net/tapdev6.c
++++ b/cpu/native/net/tapdev6.c
+@@ -137,8 +137,10 @@ tapdev_init(void)
+       perror(buf);
+       exit(1);
+     }
++    snprintf(buf, sizeof(buf), "ifconfig %s up", ifr.ifr_name);
++    system(buf);
++    printf("%s\n", buf);
+   }
+-#endif /* Linux */
+ 
+   /* Linux (ubuntu)
+      snprintf(buf, sizeof(buf), "ip link set tap0 up");
+@@ -151,10 +153,12 @@ tapdev_init(void)
+      system(buf);
+      PRINTF("%s\n", buf);
+   */
++#else /* linux */
+   /* freebsd */
+   snprintf(buf, sizeof(buf), "ifconfig tap0 up");
+   system(buf);
+   printf("%s\n", buf);
++#endif /* Linux */
+   
+   /*  */
+   lasttime = 0;

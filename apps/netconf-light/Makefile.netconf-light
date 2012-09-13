@@ -1,0 +1,3 @@
+netconf-light_src=netconf-light.c simplexml2.c testinit.c
+COFFEE_FILES=3
+COFFEE_ADDRESS=0x19000

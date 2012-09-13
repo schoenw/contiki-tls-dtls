@@ -1,0 +1,4 @@
+1. netconf 1.1 framing - done
+2. handle long messages
+3. rpc-error
+4. move all strings to flash
