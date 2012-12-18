@@ -1,6 +1,0 @@
-Important dependencies when compiling:
-
-gcc-avr 4.3.2
-avr-libc 1.6.2-2
-
-with other versions something goes horribly wrong with the Coffee File System API
